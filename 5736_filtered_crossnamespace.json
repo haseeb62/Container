@@ -1,0 +1,1724 @@
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "243",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.543",
+    "ns pid": "2483",
+    "pid": "2483",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json kill --all d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54 9",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1686829",
+    "source": "syscall",
+    "time": "1662836636.543",
+    "type": "Used",
+    "operation": "load"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "248",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.543",
+    "ns pid": "2483",
+    "pid": "2483",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json kill --all d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54 9",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1686916",
+    "flags": "O_RDONLY",
+    "source": "syscall",
+    "time": "1662836636.547",
+    "type": "Used",
+    "operation": "open"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "249",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.543",
+    "ns pid": "2483",
+    "pid": "2483",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json kill --all d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54 9",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1686918",
+    "size": "52",
+    "source": "syscall",
+    "time": "1662836636.547",
+    "type": "Used",
+    "operation": "read"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "250",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.543",
+    "ns pid": "2483",
+    "pid": "2483",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json kill --all d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54 9",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1686921",
+    "source": "syscall",
+    "time": "1662836636.547",
+    "type": "Used",
+    "operation": "close"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "251",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.543",
+    "ns pid": "2483",
+    "pid": "2483",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json kill --all d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54 9",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1686925",
+    "size": "52",
+    "source": "syscall",
+    "time": "1662836636.547",
+    "type": "Used",
+    "operation": "read"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "252",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.543",
+    "ns pid": "2483",
+    "pid": "2483",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json kill --all d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54 9",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1686927",
+    "size": "0",
+    "source": "syscall",
+    "time": "1662836636.547",
+    "type": "Used",
+    "operation": "read"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "253",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.547",
+    "ns pid": "2484",
+    "pid": "2484",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2483",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json kill --all d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54 9",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1686928",
+    "source": "syscall",
+    "time": "1662836636.547",
+    "type": "Used",
+    "operation": "close"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "262",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.571",
+    "ns pid": "2491",
+    "pid": "2491",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json state d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1687108",
+    "source": "syscall",
+    "time": "1662836636.571",
+    "type": "Used",
+    "operation": "load"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "266",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.571",
+    "ns pid": "2491",
+    "pid": "2491",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json state d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1687192",
+    "flags": "O_RDONLY",
+    "source": "syscall",
+    "time": "1662836636.575",
+    "type": "Used",
+    "operation": "open"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "267",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.571",
+    "ns pid": "2491",
+    "pid": "2491",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json state d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1687194",
+    "size": "52",
+    "source": "syscall",
+    "time": "1662836636.575",
+    "type": "Used",
+    "operation": "read"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "268",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.571",
+    "ns pid": "2491",
+    "pid": "2491",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json state d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1687197",
+    "source": "syscall",
+    "time": "1662836636.575",
+    "type": "Used",
+    "operation": "close"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "269",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.571",
+    "ns pid": "2491",
+    "pid": "2491",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json state d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1687201",
+    "size": "52",
+    "source": "syscall",
+    "time": "1662836636.575",
+    "type": "Used",
+    "operation": "read"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "270",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.575",
+    "ns pid": "2492",
+    "pid": "2492",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2491",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json state d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1687203",
+    "source": "syscall",
+    "time": "1662836636.575",
+    "type": "Used",
+    "operation": "close"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "271",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.571",
+    "ns pid": "2491",
+    "pid": "2491",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json state d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1687204",
+    "size": "0",
+    "source": "syscall",
+    "time": "1662836636.575",
+    "type": "Used",
+    "operation": "read"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "279",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.579",
+    "ns pid": "2493",
+    "pid": "2493",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json kill --all d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54 9",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1687407",
+    "source": "syscall",
+    "time": "1662836636.579",
+    "type": "Used",
+    "operation": "load"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "284",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.579",
+    "ns pid": "2493",
+    "pid": "2493",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json kill --all d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54 9",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1687492",
+    "flags": "O_RDONLY",
+    "source": "syscall",
+    "time": "1662836636.579",
+    "type": "Used",
+    "operation": "open"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "285",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.579",
+    "ns pid": "2493",
+    "pid": "2493",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json kill --all d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54 9",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1687494",
+    "size": "52",
+    "source": "syscall",
+    "time": "1662836636.579",
+    "type": "Used",
+    "operation": "read"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "286",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.579",
+    "ns pid": "2493",
+    "pid": "2493",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json kill --all d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54 9",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1687497",
+    "source": "syscall",
+    "time": "1662836636.579",
+    "type": "Used",
+    "operation": "close"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "287",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.579",
+    "ns pid": "2493",
+    "pid": "2493",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json kill --all d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54 9",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1687501",
+    "size": "52",
+    "source": "syscall",
+    "time": "1662836636.583",
+    "type": "Used",
+    "operation": "read"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "288",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.583",
+    "ns pid": "2494",
+    "pid": "2494",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2493",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json kill --all d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54 9",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1687503",
+    "source": "syscall",
+    "time": "1662836636.583",
+    "type": "Used",
+    "operation": "close"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "289",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.579",
+    "ns pid": "2493",
+    "pid": "2493",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json kill --all d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54 9",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1687504",
+    "size": "0",
+    "source": "syscall",
+    "time": "1662836636.583",
+    "type": "Used",
+    "operation": "read"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "293",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.583",
+    "ns pid": "2495",
+    "pid": "2495",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json delete d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1687537",
+    "source": "syscall",
+    "time": "1662836636.583",
+    "type": "Used",
+    "operation": "load"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "298",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.583",
+    "ns pid": "2495",
+    "pid": "2495",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json delete d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1687624",
+    "flags": "O_RDONLY",
+    "source": "syscall",
+    "time": "1662836636.583",
+    "type": "Used",
+    "operation": "open"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "299",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.583",
+    "ns pid": "2495",
+    "pid": "2495",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json delete d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1687626",
+    "size": "52",
+    "source": "syscall",
+    "time": "1662836636.583",
+    "type": "Used",
+    "operation": "read"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "300",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.583",
+    "ns pid": "2495",
+    "pid": "2495",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json delete d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1687629",
+    "source": "syscall",
+    "time": "1662836636.583",
+    "type": "Used",
+    "operation": "close"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "301",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.583",
+    "ns pid": "2495",
+    "pid": "2495",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json delete d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1687633",
+    "size": "52",
+    "source": "syscall",
+    "time": "1662836636.583",
+    "type": "Used",
+    "operation": "read"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "302",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.583",
+    "ns pid": "2495",
+    "pid": "2495",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2396",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json delete d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1687635",
+    "size": "0",
+    "source": "syscall",
+    "time": "1662836636.583",
+    "type": "Used",
+    "operation": "read"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
+{
+  "artifact": {
+    "inode": "3409631",
+    "subtype": "file"
+  },
+  "cross-namespace-event-id": "303",
+  "reader": {
+    "gid": "0",
+    "euid": "0",
+    "children pid namespace": "4026531836",
+    "start time": "1662836636.583",
+    "ns pid": "2496",
+    "pid": "2496",
+    "source": "syscall",
+    "type": "Process",
+    "net namespace": "4026531993",
+    "ipc namespace": "4026531839",
+    "ppid": "2495",
+    "pid namespace": "4026531836",
+    "cwd": "/run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "uid": "0",
+    "egid": "0",
+    "exe": "/bin/bash",
+    "mount namespace": "4026531840",
+    "command line": "/bin/bash /usr/bin/docker-runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v1.linux/moby/d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54/log.json --log-format json delete d11bfa0872cd7f47fa121e7e5dc219c882c3f0565dd17c8214a1e03bd2df7d54",
+    "name": "docker-runc",
+    "user namespace": "4026531837"
+  },
+  "writers": [
+    {
+      "pid namespace": "4026532196",
+      "mount namespace": "4026532193",
+      "children pid namespace": "4026532196",
+      "start time": "1662836636.495",
+      "pid": "2418",
+      "net namespace": "4026532198",
+      "user namespace": "4026531837",
+      "ipc namespace": "4026532195"
+    }
+  ],
+  "read-edge": {
+    "event id": "1687637",
+    "source": "syscall",
+    "time": "1662836636.591",
+    "type": "Used",
+    "operation": "close"
+  },
+  "artifacts": [
+    {
+      "inode": "3409631",
+      "path": "/proc/2418/fd/3",
+      "subtype": "file",
+      "root path": "/var/lib/docker/overlay2/214bf5b7e830f1507b90909eae16f045679f0b9933ab4702316cd6a08b0609c0/merged"
+    },
+    {
+      "inode": "3409631",
+      "path": "/usr/bin/docker-runc",
+      "subtype": "file"
+    }
+  ]
+}
