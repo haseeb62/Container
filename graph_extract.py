@@ -65,12 +65,17 @@ def generateBinary(input_file, output_file, query_file, inputLog_path):
                     qfile.write(final_query + '\n')
                     qfile.write('export > /tmp/14271_' + str(flow_count) + '.dot\n')
                     qfile.write('dump all $path\n')
-                outfile.write("/home/vagrant/SPADE/bin/spade query < /home/vagrant/inputs\n")
+                outfile.write("/home/vagrant/SPADE/bin/spade query < /home/vagrant/Container/CVE_14271/inputs" + str(flow_count) + "\n")
                 flow_count += 1
         #End loop
         outfile.write("./spade stop\n")
         outfile.write("truncate -s 0 ../cfg/spade.client.Control.config\n")
         outfile.write("./manage-postgres.sh clear\n")
+        outfile.write("cd ~/Container/CVE_14271")
+        outfile.write("rm output.json")
+        outfile.write("rm filtered.json")
+        outfile.write("rm input*")
+        outfile.write("rm SPADE-q*")
         # outfile.write("cd ~")
         # outfile.write("cd /tmp")
         #Loop
