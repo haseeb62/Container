@@ -37,11 +37,7 @@ def extractFeatures(input_file, output_file):
 
 
 def generateBinary(input_file, output_file, query_file, inputLog_path):
-    with open("inputs", "w") as inputs:
-        inputs.write("load /home/vagrant/" + query_file + '\n')
-        inputs.write("list\n")
-        inputs.write("exit\n")
-
+    flow_count = 1
     with open(output_file, "w") as outfile:
         outfile.write("#!/bin/bash\n")
         outfile.write("#cd ~\n")
@@ -51,10 +47,10 @@ def generateBinary(input_file, output_file, query_file, inputLog_path):
         outfile.write('echo -e "add analyzer CommandLine\nadd storage PostgreSQL\nadd reporter Audit inputLog='+inputLog_path+'\n\nremove reporter Audit\nremove storage PostgreSQL\nadd storage PostgreSQL\nset storage PostgreSQL\nexit" | ./spade control\n')
         #Loops
         with open(input_file) as inputfile:
-            flow_count = 1
+            
             for line in inputfile:
                 flow = json.loads(line)
-                with open(query_file, "w") as qfile:
+                with open(query_file + str(flow_count), "w") as qfile:
                     qfile.write('%artifact = "inode" == \'' + flow["inode"] + '\'\n')
                     qfile.write('$artifact = $base.getVertex(%artifact)' + '\n')
                     qfile.write('%reader = "pid" == \'' + flow["reader"]["pid"] + '\' and "start time" == \'' + flow["reader"]["start time"] + '\'\n')
@@ -79,6 +75,14 @@ def generateBinary(input_file, output_file, query_file, inputLog_path):
         # outfile.write("cd /tmp")
         #Loop
         # outfile.write("dot -Tsvg -o 14271_1.svg 14271_1.dot")
+        count = 1
+        while count < flow_count:
+            with open("inputs" + str(count), "w") as inputs:
+                inputs.write("load /home/vagrant/" + query_file + str(count) + '\n')
+                inputs.write("list\n")
+                inputs.write("exit\n")
+            count += 1
+        
 
 
       
@@ -86,11 +90,11 @@ def generateBinary(input_file, output_file, query_file, inputLog_path):
 if __name__ == '__main__':
     privilegeFlowFile = "output.json"
     extractedFile = "filtered.json"
-    crossNamespaceFile = ""
-    hostNamespace = ""
-    containerNamespace = ""
+    crossNamespaceFile = "cross-namespaces.json"
+    hostNamespace = "4026531836"
+    containerNamespace = "4026532196"
 
 
-    getPrivilegedFlows(crossNamespaceFile, hostNamespace, containerNamespace, privilegeFlowFile)
+    # getPrivilegedFlows(crossNamespaceFile, hostNamespace, containerNamespace, privilegeFlowFile)
     extractFeatures(privilegeFlowFile, extractedFile)
     generateBinary(extractedFile, "cve.sh", "SPADE-queries", "/home/vagrant/Container/CVE_14271/cve_14271.log")
