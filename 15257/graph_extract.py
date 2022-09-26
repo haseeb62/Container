@@ -21,7 +21,7 @@ def extractFeatures(input_file, output_file):
             # for this specefic CVE pls change
             if(temp["artifact"]["subtype"] != "heehehheheheheeh"):
                 output = {}
-                if(not temp["artifact"]["inode"]):
+                if("inode" not in temp["artifact"]):
                     continue
                 inode = temp["artifact"]["inode"]
                 output["inode"] = inode
