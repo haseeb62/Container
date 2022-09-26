@@ -76,12 +76,12 @@ def generateBinary(input_file, output_file, query_file, inputLog_path):
         outfile.write("rm filtered.json\n")
         outfile.write("rm input*\n")
         outfile.write("rm SPADE-q*\n")
-        outfile.write("cd ~")
-        outfile.write("cd /tmp")
+        outfile.write("cd ~\n")
+        outfile.write("cd /tmp\n")
         #Loop
         count = 1
         while count < flow_count:
-            outfile.write("dot -Tsvg -o ~/Container/CVE_14271/14271_" + str(count) + ".svg 14271_"+ str(count) +".dot")
+            outfile.write("dot -Tsvg -o ~/Container/CVE_14271/14271_" + str(count) + ".svg 14271_"+ str(count) +".dot\n")
             with open("inputs" + str(count), "w") as inputs:
                 inputs.write("load /home/vagrant/Container/CVE_14271/" + query_file + str(count) + '\n')
                 inputs.write("list\n")
