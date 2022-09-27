@@ -10,30 +10,42 @@ def getPrivilegedFlows(crossNamespaceFile, hostNamespace, containerNamespace, ou
                         with open(outputFile, "a") as outfile:
                                 outfile.write(json.dumps(temp)+'\n')
 
-def extractFeatures(input_file, output_file):
-    final_output = []
-    with open(input_file) as f:
-        inode_l = []
-        for line in f:
-            temp = json.loads(line)
-            if(temp["artifact"]["subtype"] == "file"):
-                output = {}
-                inode = temp["artifact"]["inode"]
-                output["inode"] = inode
-                if inode not in inode_l:
-                    inode_l.append(inode)
-                reader = {"pid": temp["reader"]["pid"], "start time": temp["reader"]["start time"]}
-                output["reader"] = reader
-                writer_l = []
-                for writer in temp["writers"]:
-                    writer_l.append({"pid": writer["pid"], "start time": writer["start time"]})
-                output["writers"] = writer_l
-                final_output.append(output)
-        print(len(inode_l), inode_l)
+# def extractFeatures(input_file, output_file):
+#     final_output = []
+#     with open(input_file) as f:
+#         inode_l = []
+#         for line in f:
+#             temp = json.loads(line)
+#             if(temp["artifact"]["subtype"] == "file"):
+#                 output = {}
+#                 inode = temp["artifact"]["inode"]
+#                 output["inode"] = inode
+#                 if inode not in inode_l:
+#                     inode_l.append(inode)
+#                 reader = {"pid": temp["reader"]["pid"], "start time": temp["reader"]["start time"]}
+#                 output["reader"] = reader
+#                 writer_l = []
+#                 for writer in temp["writers"]:
+#                     writer_l.append({"pid": writer["pid"], "start time": writer["start time"]})
+#                 output["writers"] = writer_l
+#                 final_output.append(output)
+#         print(len(inode_l), inode_l)
 
-    with open(output_file, "w") as outfile:
-        for out in final_output:
-            outfile.write(json.dumps(out)+'\n')
+#     with open(output_file, "w") as outfile:
+#         for out in final_output:
+#             outfile.write(json.dumps(out)+'\n')
+
+def makeConstraint(input, type):
+    constraint = '%{key} = '.format(key = type)
+    count = 0
+    for key, value in input.items():
+        if count == 0:
+            constraint += '"{k}" == \'{v}\' '.format(k = key, v = value)
+        else:
+            constraint += 'and "{k}" == \'{v}\' '.format(k = key, v = value)
+        count += 1
+    return constraint + '\n'
+
 
 
 def generateBinary(input_file, output_file, query_file, inputLog_path):
@@ -51,21 +63,21 @@ def generateBinary(input_file, output_file, query_file, inputLog_path):
             for line in inputfile:
                 flow = json.loads(line)
                 with open(query_file + str(flow_count), "w") as qfile:
-                    qfile.write('%artifact = "inode" == \'' + flow["inode"] + '\'\n')
+                    qfile.write(makeConstraint(flow["artifact"], 'artifact'))
                     qfile.write('$artifact = $base.getVertex(%artifact)' + '\n')
-                    qfile.write('%reader = "pid" == \'' + flow["reader"]["pid"] + '\' and "start time" == \'' + flow["reader"]["start time"] + '\'\n')
-                    qfile.write('$reader = $base.getVertex(%reader)' + '\n')
+                    qfile.write(makeConstraint(flow["reader"], 'reader'))
+                    qfile.write('$reader = $base.getVertex(%reader)\n')
                     writer_count = 1
                     final_query = '$path = $base.getPath($reader, $artifact, 1)'
                     for writer in flow["writers"]:
-                        qfile.write('%writer'+ str(writer_count) + ' = "pid" == \'' + writer["pid"] + '\' and "start time" == \'' + writer["start time"] + '\'\n')
-                        qfile.write('$writer' + str(writer_count) + ' = $base.getVertex(%writer' + str(writer_count) + ')\n')
-                        final_query += ' + $base.getPath($artifact, $writer' + str(writer_count) + ', 1)'
+                        qfile.write(makeConstraint(writer, 'writer{num}'.format(num = str(writer_count))))
+                        qfile.write('$writer{num} = $base.getVertex(%writer{num})\n'.format(num = str(writer_count)))
+                        final_query += ' + $base.getPath($artifact, $writer{num}, 1)'.format(num = str(writer_count))
                         writer_count += 1
                     qfile.write(final_query + '\n')
-                    qfile.write('export > /tmp/14271_' + str(flow_count) + '.dot\n')
+                    qfile.write('export > /tmp/14271_{f_count}.dot\n'.format(f_count = flow_count))
                     qfile.write('dump all $path\n')
-                outfile.write("/home/vagrant/SPADE/bin/spade query < /home/vagrant/Container/CVE_14271/inputs" + str(flow_count) + "\n")
+                outfile.write("/home/vagrant/SPADE/bin/spade query < /home/vagrant/Container/CVE_14271/inputs{f_count}\n".format(f_count = flow_count))
                 flow_count += 1
         #End loop
         outfile.write("./spade stop\n")
@@ -99,6 +111,6 @@ if __name__ == '__main__':
     containerNamespace = "4026532196"
 
 
-    getPrivilegedFlows(crossNamespaceFile, hostNamespace, containerNamespace, privilegeFlowFile)
-    extractFeatures(privilegeFlowFile, extractedFile)
-    generateBinary(extractedFile, "cve.sh", "SPADE-queries", "/home/vagrant/Container/CVE_14271/cve_14271.log")
+    # getPrivilegedFlows(crossNamespaceFile, hostNamespace, containerNamespace, privilegeFlowFile)
+    # extractFeatures(privilegeFlowFile, extractedFile)
+    generateBinary(privilegeFlowFile, "cve.sh", "SPADE-queries", "/home/vagrant/Container/CVE_14271/cve_14271.log")
