@@ -14,7 +14,7 @@ def getPrivilegedFlows(crossNamespaceFile, hostNamespace, containerNamespace, ou
                     for i in temp["writers"]:
                         if i["pid namespace"] == containerNamespace:
                             check = True
-                        if i["pid namespace"] == "-1":
+                        if i["pid namespace"] != containerNamespace:
                             remove.append(i)
                 if check == True:
                     for i in remove:
