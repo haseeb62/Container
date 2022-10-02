@@ -83,7 +83,7 @@ def generateBinary(input_file, output_file, query_file, inputLog_path, currentDi
         #Loop
         count = 1
         while count < flow_count:
-            outfile.write("dot -Tsvg -o ~{currentDir}/graphs/{count}.svg {count}.dot\n".format(count=str(count), currentDir=currentDirectory))
+            outfile.write("dot -Tsvg -o {currentDir}/cross_graphs/{count}.svg {count}.dot\n".format(count=str(count), currentDir=currentDirectory))
             with open("inputs" + str(count), "w") as inputs:
                 inputs.write("load {currentDir}/{queryFile}{count}\n".format(queryFile=query_file, currentDir=currentDirectory, count=str(count)))
                 inputs.write("list\n")
