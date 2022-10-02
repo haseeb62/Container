@@ -65,7 +65,7 @@ def generateBinary(input_file, output_file, query_file, inputLog_path, currentDi
                     qfile.write(final_query + '\n')
                     qfile.write('export > /tmp/{f_count}.dot\n'.format(f_count = flow_count))
                     qfile.write('dump all $path\n')
-                outfile.write("/home/vagrant/SPADE/bin/spade query < /home/vagrant/{currentDir}/inputs{f_count}\n".format(f_count = flow_count, currentDir=currentDirectory))
+                outfile.write("/home/vagrant/SPADE/bin/spade query < {currentDir}/inputs{f_count}\n".format(f_count = flow_count, currentDir=currentDirectory))
                 flow_count += 1
         #End loop
         outfile.write("./spade stop\n")
@@ -81,9 +81,9 @@ def generateBinary(input_file, output_file, query_file, inputLog_path, currentDi
         #Loop
         count = 1
         while count < flow_count:
-            outfile.write("dot -Tsvg -o ~/{currentDir}/{count}.svg {count}.dot\n".format(count=str(count), currentDir=currentDirectory))
+            outfile.write("dot -Tsvg -o ~{currentDir}/{count}.svg {count}.dot\n".format(count=str(count), currentDir=currentDirectory))
             with open("inputs" + str(count), "w") as inputs:
-                inputs.write("load /home/vagrant/{currentDir}/{queryFile}{count}\n".format(queryFile=query_file, currentDir=currentDirectory, count=str(count)))
+                inputs.write("load {currentDir}/{queryFile}{count}\n".format(queryFile=query_file, currentDir=currentDirectory, count=str(count)))
                 inputs.write("list\n")
                 inputs.write("exit\n")
             count += 1
