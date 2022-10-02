@@ -7,6 +7,7 @@ def getPrivilegedFlows(crossNamespaceFile, hostNamespace, containerNamespace, ou
     with open(outputFile, "w") as outfile:  
         with open(crossNamespaceFile) as f:
             for line in f:
+                remove = []
                 check = False
                 temp = json.loads(line)
                 if temp["reader"]["pid namespace"] == hostNamespace:
@@ -14,9 +15,24 @@ def getPrivilegedFlows(crossNamespaceFile, hostNamespace, containerNamespace, ou
                         if i["pid namespace"] == containerNamespace:
                             check = True
                         if i["pid namespace"] == "-1":
-                            temp["writers"].remove(i)
+                            remove.append(i)
                 if check == True:
+                    for i in remove:
+                        temp["writers"].remove(i)
                     outfile.write(json.dumps(temp)+'\n')
+#     with open(outputFile, "w") as outfile:  
+#         with open(crossNamespaceFile) as f:
+#             for line in f:
+#                 check = False
+#                 temp = json.loads(line)
+#                 if temp["reader"]["pid namespace"] == hostNamespace:
+#                     for i in temp["writers"]:
+#                         if i["pid namespace"] == containerNamespace:
+#                             check = True
+#                         if i["pid namespace"] == "-1":
+#                             temp["writers"].remove(i)
+#                 if check == True:
+#                     outfile.write(json.dumps(temp)+'\n')
 
 def makeArtifactConstraint(input):
     constraint = '%artifact = '
