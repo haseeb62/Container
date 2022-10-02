@@ -71,7 +71,7 @@ def generateBinary(input_file, output_file, query_file, inputLog_path, currentDi
         outfile.write("./spade stop\n")
         outfile.write("truncate -s 0 ../cfg/spade.client.Control.config\n")
         outfile.write("./manage-postgres.sh clear\n")
-        outfile.write("cd ~{currentDir}\n".format(currentDir=currentDirectory))
+        outfile.write("cd ~{currentDir}\n".format(currentDir=currentDirectory.split('/')[2:].join('/')))
         outfile.write("mkdir graphs")
         outfile.write("rm output.json\n")
         outfile.write("rm filtered.json\n")
