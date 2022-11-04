@@ -1,0 +1,60 @@
+Name:               cve-2019-1002101-pod
+Namespace:          default
+Priority:           0
+PriorityClassName:  <none>
+Node:               vagrant/10.0.2.15
+Start Time:         Fri, 04 Nov 2022 00:31:40 +0000
+Labels:             <none>
+Annotations:        <none>
+Status:             Running
+IP:                 10.244.0.41
+Containers:
+  container01:
+    Container ID:   docker://ce3f7957e217960915cff9fd28e35faa1524d0a345d6384bd527e7a9891e264d
+    Image:          haseeb62/cve-2019-1002101
+    Image ID:       docker-pullable://haseeb62/cve-2019-1002101@sha256:a85b62a97f94982abfb3ddae24b671fb76176c88351cfa9c0328f9ec063b3fcd
+    Port:           6379/TCP
+    Host Port:      0/TCP
+    State:          Terminated
+      Reason:       Error
+      Exit Code:    2
+      Started:      Fri, 04 Nov 2022 00:42:06 +0000
+      Finished:     Fri, 04 Nov 2022 00:42:50 +0000
+    Last State:     Terminated
+      Reason:       Error
+      Exit Code:    2
+      Started:      Fri, 04 Nov 2022 00:38:32 +0000
+      Finished:     Fri, 04 Nov 2022 00:39:16 +0000
+    Ready:          False
+    Restart Count:  6
+    Limits:
+      memory:  12000Mi
+    Requests:
+      memory:     8000Mi
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-kpsm8 (ro)
+Conditions:
+  Type              Status
+  Initialized       True 
+  Ready             False 
+  ContainersReady   False 
+  PodScheduled      True 
+Volumes:
+  default-token-kpsm8:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-kpsm8
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type     Reason     Age               From               Message
+  ----     ------     ----              ----               -------
+  Normal   Scheduled  11m               default-scheduler  Successfully assigned default/cve-2019-1002101-pod to vagrant
+  Normal   Started    8m (x4 over 11m)  kubelet, vagrant   Started container
+  Normal   Pulling    6m (x5 over 11m)  kubelet, vagrant   pulling image "haseeb62/cve-2019-1002101"
+  Normal   Pulled     6m (x5 over 11m)  kubelet, vagrant   Successfully pulled image "haseeb62/cve-2019-1002101"
+  Normal   Created    6m (x5 over 11m)  kubelet, vagrant   Created container
+  Warning  BackOff    1m (x24 over 9m)  kubelet, vagrant   Back-off restarting failed container
