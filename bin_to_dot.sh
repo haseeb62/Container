@@ -4,9 +4,9 @@ debug=0
 spade_bin="./bin/spade"
 spade_cfg="./cfg/spade.client.Control.config"
 
-cmd_bin_logs_dir_path=
-spade_log_msg_str_that_signals_the_cdm_log_has_been_processed=
-dot_output_dir_path=
+cmd_bin_logs_dir_path="/home/vagrant/trace_bin"
+spade_log_msg_str_that_signals_the_cdm_log_has_been_processed="File processing successfully succeeded"
+dot_output_dir_path="/home/vagrant/trace_dots"
 
 
 clear_spade_cfg(){
@@ -76,9 +76,10 @@ add_cdm_reporter(){
 
 remove_cdm_reporter(){
   local cmd="remove reporter CDM"
+  local current_log=`ls log -Art | tail -n 1`
   while : ; do
     sleep 10
-    if grep -q "${spade_log_msg_str_that_signals_the_cdm_log_has_been_processed}" log/current.log; then
+    if grep -q "${spade_log_msg_str_that_signals_the_cdm_log_has_been_processed}" "log/${current_log}"; then
       break
     fi
   done
