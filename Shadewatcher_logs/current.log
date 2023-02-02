@@ -1,0 +1,629 @@
+Jan 14, 2023 10:31:24 PM spade.core.Kernel getHostName INFO: SPADE host name: 'vagrant'
+Jan 14, 2023 10:31:29 PM spade.core.Kernel addStorageCommand INFO: Adding storage: Quickstep
+Jan 14, 2023 10:31:29 PM spade.screen.Deduplicate loadBloomFilterAndCache INFO: Vertex BloomFilter initialized from arguments: [falsePositiveProbability=0.000000100, expectedElements=1000000]
+Jan 14, 2023 10:31:29 PM spade.screen.Deduplicate loadBloomFilterAndCache INFO: Vertex BloomFilter would NOT be saved on shutdown
+Jan 14, 2023 10:31:29 PM spade.screen.Deduplicate loadBloomFilterAndCache INFO: Vertex cache created with max size '1000000'
+Jan 14, 2023 10:31:29 PM spade.screen.Deduplicate loadBloomFilterAndCache INFO: Edge BloomFilter initialized from arguments: [falsePositiveProbability=0.000000100, expectedElements=1000000]
+Jan 14, 2023 10:31:29 PM spade.screen.Deduplicate loadBloomFilterAndCache INFO: Edge BloomFilter would NOT be saved on shutdown
+Jan 14, 2023 10:31:29 PM spade.screen.Deduplicate loadBloomFilterAndCache INFO: Edge cache created with max size '10000'
+Jan 14, 2023 10:31:29 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=0, edgesBlocked=0, edgesNotBlocked=0
+Jan 14, 2023 10:31:29 PM spade.core.AbstractScreen initializeScreen INFO: Successfully initialized screen [name:spade.screen.Deduplicate, arguments:vertex.cache.size=1000000]
+Jan 14, 2023 10:31:29 PM spade.core.Kernel addStorageCommand INFO: Storage added: class spade.storage.Quickstep . Using screens: [Deduplicate]
+Jan 14, 2023 10:31:36 PM spade.core.Kernel addReporterCommand INFO: Adding reporter: Graphviz
+Jan 14, 2023 10:31:36 PM spade.core.BlockingBuffer log INFO: [Graphviz] workableFreeMemory=20.000%, reportingIntervalSeconds=120(enabled), sleepWaitMillis=1000
+Jan 14, 2023 10:31:36 PM spade.core.Kernel addReporterCommand INFO: Memory usage limited buffer used for reporter 'Graphviz' with 'workableFreeMemory'='20' from '/home/vagrant/SPADE/./cfg/spade.core.AbstractReporter.config'
+Jan 14, 2023 10:31:36 PM spade.reporter.Graphviz log INFO: Arguments [input=/home/vagrant/trace_dots/0.dot, reportingIntervalSeconds=120, referenceMode=true]
+Jan 14, 2023 10:31:36 PM spade.core.Kernel addReporterCommand INFO: Reporter added: Graphviz input=/home/vagrant/trace_dots/0.dot
+Jan 14, 2023 10:33:36 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1184411, Get-count=786432, Put-count=1970843, Free-mem=96.585 percent
+Jan 14, 2023 10:33:36 PM spade.reporter.Graphviz log INFO: Lines [Overall=1970848, Interval=1970848]
+Jan 14, 2023 10:33:36 PM spade.reporter.Graphviz log INFO: Vertices [Overall=381835, Interval=381835]
+Jan 14, 2023 10:33:36 PM spade.reporter.Graphviz log INFO: Edges [Overall=1589009, Interval=1589009]
+Jan 14, 2023 10:33:37 PM spade.reporter.Graphviz log INFO: Current Buffer Size=1184412
+Jan 14, 2023 10:35:17 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=149817, edgesBlocked=0, edgesNotBlocked=636615
+Jan 14, 2023 10:35:37 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2848729, Get-count=1048576, Put-count=3897305, Free-mem=94.119 percent
+Jan 14, 2023 10:35:37 PM spade.reporter.Graphviz log INFO: Lines [Overall=3897310, Interval=1926462]
+Jan 14, 2023 10:35:37 PM spade.reporter.Graphviz log INFO: Vertices [Overall=739827, Interval=357992]
+Jan 14, 2023 10:35:37 PM spade.reporter.Graphviz log INFO: Edges [Overall=3157479, Interval=1568470]
+Jan 14, 2023 10:35:37 PM spade.reporter.Graphviz log INFO: Current Buffer Size=2848730
+Jan 14, 2023 10:36:45 PM spade.reporter.Graphviz log INFO: Finished reading input file
+Jan 14, 2023 10:36:45 PM spade.reporter.Graphviz log INFO: Exited main thread
+Jan 14, 2023 10:36:48 PM spade.reporter.Graphviz log INFO: Waiting for main thread to exit... 
+Jan 14, 2023 10:36:49 PM spade.reporter.Graphviz log INFO: Lines [Overall=5001146, Interval=1103836]
+Jan 14, 2023 10:36:49 PM spade.reporter.Graphviz log INFO: Vertices [Overall=952562, Interval=212735]
+Jan 14, 2023 10:36:49 PM spade.reporter.Graphviz log INFO: Edges [Overall=4048579, Interval=891100]
+Jan 14, 2023 10:36:49 PM spade.reporter.Graphviz log INFO: Current Buffer Size=3952565
+Jan 14, 2023 10:36:49 PM spade.core.Kernel removeCommand INFO: Shutting down reporter: Graphviz
+Jan 14, 2023 10:37:48 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3952565, Get-count=1048576, Put-count=5001141, Free-mem=90.633 percent
+Jan 14, 2023 10:37:48 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=195444, edgesBlocked=0, edgesNotBlocked=853132
+Jan 14, 2023 10:40:14 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3690421, Get-count=1310720, Put-count=5001141, Free-mem=92.339 percent
+Jan 14, 2023 10:40:14 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=248425, edgesBlocked=0, edgesNotBlocked=1062295
+Jan 14, 2023 10:43:14 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3428277, Get-count=1572864, Put-count=5001141, Free-mem=91.027 percent
+Jan 14, 2023 10:43:14 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=301431, edgesBlocked=0, edgesNotBlocked=1271433
+Jan 14, 2023 10:46:20 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3166133, Get-count=1835008, Put-count=5001141, Free-mem=89.642 percent
+Jan 14, 2023 10:46:20 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=354371, edgesBlocked=0, edgesNotBlocked=1480637
+Jan 14, 2023 10:49:41 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2903989, Get-count=2097152, Put-count=5001141, Free-mem=91.997 percent
+Jan 14, 2023 10:49:41 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=404301, edgesBlocked=0, edgesNotBlocked=1692851
+Jan 14, 2023 10:52:57 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2641845, Get-count=2359296, Put-count=5001141, Free-mem=90.595 percent
+Jan 14, 2023 10:52:57 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=449891, edgesBlocked=0, edgesNotBlocked=1909405
+Jan 14, 2023 10:56:01 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2379701, Get-count=2621440, Put-count=5001141, Free-mem=89.240 percent
+Jan 14, 2023 10:56:01 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=502849, edgesBlocked=0, edgesNotBlocked=2118591
+Jan 14, 2023 10:59:43 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2117557, Get-count=2883584, Put-count=5001141, Free-mem=92.249 percent
+Jan 14, 2023 10:59:43 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=553812, edgesBlocked=0, edgesNotBlocked=2329772
+Jan 14, 2023 11:03:20 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1855413, Get-count=3145728, Put-count=5001141, Free-mem=90.834 percent
+Jan 14, 2023 11:03:20 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=598367, edgesBlocked=0, edgesNotBlocked=2547361
+Jan 14, 2023 11:06:36 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1593269, Get-count=3407872, Put-count=5001141, Free-mem=89.472 percent
+Jan 14, 2023 11:06:36 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=642985, edgesBlocked=0, edgesNotBlocked=2764887
+Jan 14, 2023 11:10:02 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1331125, Get-count=3670016, Put-count=5001141, Free-mem=88.047 percent
+Jan 14, 2023 11:10:02 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=693948, edgesBlocked=0, edgesNotBlocked=2976068
+Jan 14, 2023 11:14:03 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1068981, Get-count=3932160, Put-count=5001141, Free-mem=91.092 percent
+Jan 14, 2023 11:14:03 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=746874, edgesBlocked=0, edgesNotBlocked=3185286
+Jan 14, 2023 11:18:14 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=806837, Get-count=4194304, Put-count=5001141, Free-mem=89.718 percent
+Jan 14, 2023 11:18:14 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=799868, edgesBlocked=0, edgesNotBlocked=3394436
+Jan 14, 2023 11:22:24 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=544693, Get-count=4456448, Put-count=5001141, Free-mem=88.286 percent
+Jan 14, 2023 11:22:24 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=852840, edgesBlocked=0, edgesNotBlocked=3603608
+Jan 14, 2023 11:26:45 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=282549, Get-count=4718592, Put-count=5001141, Free-mem=91.228 percent
+Jan 14, 2023 11:26:45 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=897558, edgesBlocked=0, edgesNotBlocked=3821034
+Jan 14, 2023 11:30:33 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=20405, Get-count=4980736, Put-count=5001141, Free-mem=89.821 percent
+Jan 14, 2023 11:30:33 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=948443, edgesBlocked=0, edgesNotBlocked=4032293
+Jan 14, 2023 11:30:34 PM spade.core.Kernel removeCommand INFO: Reporter shut down: Graphviz
+Jan 14, 2023 11:30:36 PM spade.core.Kernel addReporterCommand INFO: Adding reporter: Graphviz
+Jan 14, 2023 11:30:36 PM spade.core.BlockingBuffer log INFO: [Graphviz] workableFreeMemory=20.000%, reportingIntervalSeconds=120(enabled), sleepWaitMillis=1000
+Jan 14, 2023 11:30:36 PM spade.core.Kernel addReporterCommand INFO: Memory usage limited buffer used for reporter 'Graphviz' with 'workableFreeMemory'='20' from '/home/vagrant/SPADE/./cfg/spade.core.AbstractReporter.config'
+Jan 14, 2023 11:30:36 PM spade.reporter.Graphviz log INFO: Arguments [input=/home/vagrant/trace_dots/1.dot, reportingIntervalSeconds=120, referenceMode=true]
+Jan 14, 2023 11:30:36 PM spade.core.Kernel addReporterCommand INFO: Reporter added: Graphviz input=/home/vagrant/trace_dots/1.dot
+Jan 14, 2023 11:32:37 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1555023, Get-count=241739, Put-count=1796762, Free-mem=89.757 percent
+Jan 14, 2023 11:32:37 PM spade.reporter.Graphviz log INFO: Lines [Overall=1796767, Interval=1796767]
+Jan 14, 2023 11:32:37 PM spade.reporter.Graphviz log INFO: Vertices [Overall=399078, Interval=399078]
+Jan 14, 2023 11:32:37 PM spade.reporter.Graphviz log INFO: Edges [Overall=1397685, Interval=1397685]
+Jan 14, 2023 11:32:37 PM spade.reporter.Graphviz log INFO: Current Buffer Size=1555024
+Jan 14, 2023 11:34:37 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3348124, Get-count=241739, Put-count=3589863, Free-mem=86.239 percent
+Jan 14, 2023 11:34:37 PM spade.reporter.Graphviz log INFO: Lines [Overall=3589868, Interval=1793101]
+Jan 14, 2023 11:34:37 PM spade.reporter.Graphviz log INFO: Vertices [Overall=752790, Interval=353712]
+Jan 14, 2023 11:34:37 PM spade.reporter.Graphviz log INFO: Edges [Overall=2837074, Interval=1439389]
+Jan 14, 2023 11:34:38 PM spade.reporter.Graphviz log INFO: Current Buffer Size=3348125
+Jan 14, 2023 11:35:45 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=1046343, edgesBlocked=0, edgesNotBlocked=4196537
+Jan 14, 2023 11:36:01 PM spade.reporter.Graphviz log INFO: Finished reading input file
+Jan 14, 2023 11:36:01 PM spade.reporter.Graphviz log INFO: Exited main thread
+Jan 14, 2023 11:36:09 PM spade.reporter.Graphviz log INFO: Waiting for main thread to exit... 
+Jan 14, 2023 11:36:09 PM spade.reporter.Graphviz log INFO: Lines [Overall=4757052, Interval=1167184]
+Jan 14, 2023 11:36:09 PM spade.reporter.Graphviz log INFO: Vertices [Overall=954498, Interval=201708]
+Jan 14, 2023 11:36:09 PM spade.reporter.Graphviz log INFO: Edges [Overall=3802549, Interval=965475]
+Jan 14, 2023 11:36:10 PM spade.reporter.Graphviz log INFO: Current Buffer Size=4253164
+Jan 14, 2023 11:36:10 PM spade.core.Kernel removeCommand INFO: Shutting down reporter: Graphviz
+Jan 14, 2023 11:44:14 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4253164, Get-count=503883, Put-count=4757047, Free-mem=83.869 percent
+Jan 14, 2023 11:44:14 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=1099510, edgesBlocked=0, edgesNotBlocked=4405514
+Jan 14, 2023 11:49:01 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3991020, Get-count=766027, Put-count=4757047, Free-mem=82.520 percent
+Jan 14, 2023 11:49:01 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=1145773, edgesBlocked=0, edgesNotBlocked=4621395
+Jan 14, 2023 11:53:19 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3728876, Get-count=1028171, Put-count=4757047, Free-mem=84.575 percent
+Jan 14, 2023 11:53:19 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=1195695, edgesBlocked=0, edgesNotBlocked=4833617
+Jan 14, 2023 11:58:03 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3466732, Get-count=1290315, Put-count=4757047, Free-mem=83.208 percent
+Jan 14, 2023 11:58:03 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=1248868, edgesBlocked=0, edgesNotBlocked=5042588
+Jan 15, 2023 12:03:16 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3204588, Get-count=1552459, Put-count=4757047, Free-mem=81.873 percent
+Jan 15, 2023 12:03:16 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=1302137, edgesBlocked=0, edgesNotBlocked=5251463
+Jan 15, 2023 12:08:49 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2942444, Get-count=1814603, Put-count=4757047, Free-mem=84.669 percent
+Jan 15, 2023 12:08:49 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=1355239, edgesBlocked=0, edgesNotBlocked=5460505
+Jan 15, 2023 12:14:24 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2680300, Get-count=2076747, Put-count=4757047, Free-mem=83.318 percent
+Jan 15, 2023 12:14:24 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=1408509, edgesBlocked=0, edgesNotBlocked=5669379
+Jan 15, 2023 12:20:26 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2418156, Get-count=2338891, Put-count=4757047, Free-mem=81.945 percent
+Jan 15, 2023 12:20:26 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=1461649, edgesBlocked=0, edgesNotBlocked=5878383
+Jan 15, 2023 12:26:30 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2156012, Get-count=2601035, Put-count=4757047, Free-mem=84.779 percent
+Jan 15, 2023 12:26:30 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=1506599, edgesBlocked=0, edgesNotBlocked=6095577
+Jan 15, 2023 12:31:56 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1893868, Get-count=2863179, Put-count=4757047, Free-mem=83.396 percent
+Jan 15, 2023 12:31:56 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=1557809, edgesBlocked=0, edgesNotBlocked=6306511
+Jan 15, 2023 12:38:03 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1631724, Get-count=3125323, Put-count=4757047, Free-mem=82.033 percent
+Jan 15, 2023 12:38:03 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=1611045, edgesBlocked=0, edgesNotBlocked=6515419
+Jan 15, 2023 12:44:31 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1369580, Get-count=3387467, Put-count=4757047, Free-mem=84.815 percent
+Jan 15, 2023 12:44:31 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=1664332, edgesBlocked=0, edgesNotBlocked=6724276
+Jan 15, 2023 12:51:08 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1107436, Get-count=3649611, Put-count=4757047, Free-mem=83.438 percent
+Jan 15, 2023 12:51:08 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=1717392, edgesBlocked=0, edgesNotBlocked=6933360
+Jan 15, 2023 12:57:49 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=845292, Get-count=3911755, Put-count=4757047, Free-mem=82.113 percent
+Jan 15, 2023 12:57:49 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=1762209, edgesBlocked=0, edgesNotBlocked=7150687
+Jan 15, 2023 1:03:40 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=583148, Get-count=4173899, Put-count=4757047, Free-mem=85.087 percent
+Jan 15, 2023 1:03:40 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=1807113, edgesBlocked=0, edgesNotBlocked=7367927
+Jan 15, 2023 1:09:36 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=321004, Get-count=4436043, Put-count=4757047, Free-mem=83.740 percent
+Jan 15, 2023 1:09:36 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=1852127, edgesBlocked=0, edgesNotBlocked=7585057
+Jan 15, 2023 1:15:39 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=58860, Get-count=4698187, Put-count=4757047, Free-mem=82.395 percent
+Jan 15, 2023 1:15:39 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=1897002, edgesBlocked=0, edgesNotBlocked=7802326
+Jan 15, 2023 1:15:40 AM spade.core.Kernel removeCommand INFO: Reporter shut down: Graphviz
+Jan 15, 2023 1:15:43 AM spade.core.Kernel addReporterCommand INFO: Adding reporter: Graphviz
+Jan 15, 2023 1:15:43 AM spade.core.BlockingBuffer log INFO: [Graphviz] workableFreeMemory=20.000%, reportingIntervalSeconds=120(enabled), sleepWaitMillis=1000
+Jan 15, 2023 1:15:43 AM spade.core.Kernel addReporterCommand INFO: Memory usage limited buffer used for reporter 'Graphviz' with 'workableFreeMemory'='20' from '/home/vagrant/SPADE/./cfg/spade.core.AbstractReporter.config'
+Jan 15, 2023 1:15:43 AM spade.reporter.Graphviz log INFO: Arguments [input=/home/vagrant/trace_dots/2.dot, reportingIntervalSeconds=120, referenceMode=true]
+Jan 15, 2023 1:15:43 AM spade.core.Kernel addReporterCommand INFO: Reporter added: Graphviz input=/home/vagrant/trace_dots/2.dot
+Jan 15, 2023 1:17:43 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1397748, Get-count=203284, Put-count=1601032, Free-mem=80.941 percent
+Jan 15, 2023 1:17:43 AM spade.reporter.Graphviz log INFO: Lines [Overall=1601037, Interval=1601037]
+Jan 15, 2023 1:17:43 AM spade.reporter.Graphviz log INFO: Vertices [Overall=316480, Interval=316480]
+Jan 15, 2023 1:17:43 AM spade.reporter.Graphviz log INFO: Edges [Overall=1284553, Interval=1284553]
+Jan 15, 2023 1:17:44 AM spade.reporter.Graphviz log INFO: Current Buffer Size=1397749
+Jan 15, 2023 1:19:44 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2901092, Get-count=203284, Put-count=3104376, Free-mem=78.792 percent
+Jan 15, 2023 1:19:44 AM spade.reporter.Graphviz log INFO: Lines [Overall=3104381, Interval=1503344]
+Jan 15, 2023 1:19:44 AM spade.reporter.Graphviz log INFO: Vertices [Overall=573902, Interval=257422]
+Jan 15, 2023 1:19:44 AM spade.reporter.Graphviz log INFO: Edges [Overall=2530475, Interval=1245922]
+Jan 15, 2023 1:19:44 AM spade.reporter.Graphviz log INFO: Current Buffer Size=2901093
+Jan 15, 2023 1:21:44 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4437067, Get-count=203284, Put-count=4640351, Free-mem=76.445 percent
+Jan 15, 2023 1:21:44 AM spade.reporter.Graphviz log INFO: Lines [Overall=4650617, Interval=1546236]
+Jan 15, 2023 1:21:44 AM spade.reporter.Graphviz log INFO: Vertices [Overall=869756, Interval=295854]
+Jan 15, 2023 1:21:44 AM spade.reporter.Graphviz log INFO: Edges [Overall=3780857, Interval=1250382]
+Jan 15, 2023 1:21:46 AM spade.reporter.Graphviz log INFO: Current Buffer Size=4447329
+Jan 15, 2023 1:22:01 AM spade.reporter.Graphviz log INFO: Finished reading input file
+Jan 15, 2023 1:22:01 AM spade.reporter.Graphviz log INFO: Exited main thread
+Jan 15, 2023 1:22:06 AM spade.reporter.Graphviz log INFO: Waiting for main thread to exit... 
+Jan 15, 2023 1:22:06 AM spade.reporter.Graphviz log INFO: Lines [Overall=4815963, Interval=165346]
+Jan 15, 2023 1:22:06 AM spade.reporter.Graphviz log INFO: Vertices [Overall=900008, Interval=30252]
+Jan 15, 2023 1:22:06 AM spade.reporter.Graphviz log INFO: Edges [Overall=3915950, Interval=135093]
+Jan 15, 2023 1:22:07 AM spade.reporter.Graphviz log INFO: Current Buffer Size=4612674
+Jan 15, 2023 1:22:07 AM spade.core.Kernel removeCommand INFO: Shutting down reporter: Graphviz
+Jan 15, 2023 1:22:36 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=1968921, edgesBlocked=0, edgesNotBlocked=7992551
+Jan 15, 2023 1:32:21 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4350530, Get-count=465428, Put-count=4815958, Free-mem=76.090 percent
+Jan 15, 2023 1:32:21 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=2013746, edgesBlocked=0, edgesNotBlocked=8209870
+Jan 15, 2023 1:38:39 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4088386, Get-count=727572, Put-count=4815958, Free-mem=74.773 percent
+Jan 15, 2023 1:38:39 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=2060061, edgesBlocked=0, edgesNotBlocked=8425699
+Jan 15, 2023 1:45:08 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3826242, Get-count=989716, Put-count=4815958, Free-mem=77.119 percent
+Jan 15, 2023 1:45:08 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=2113184, edgesBlocked=0, edgesNotBlocked=8634720
+Jan 15, 2023 1:52:44 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3564098, Get-count=1251860, Put-count=4815958, Free-mem=75.800 percent
+Jan 15, 2023 1:52:44 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=2163872, edgesBlocked=0, edgesNotBlocked=8846176
+Jan 15, 2023 1:59:59 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3301954, Get-count=1514004, Put-count=4815958, Free-mem=74.473 percent
+Jan 15, 2023 1:59:59 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=2208678, edgesBlocked=0, edgesNotBlocked=9063514
+Jan 15, 2023 2:06:35 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3039810, Get-count=1776148, Put-count=4815958, Free-mem=77.477 percent
+Jan 15, 2023 2:06:35 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=2253443, edgesBlocked=0, edgesNotBlocked=9280893
+Jan 15, 2023 2:13:04 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2777666, Get-count=2038292, Put-count=4815958, Free-mem=76.171 percent
+Jan 15, 2023 2:13:04 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=2298323, edgesBlocked=0, edgesNotBlocked=9498157
+Jan 15, 2023 2:19:42 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2515522, Get-count=2300436, Put-count=4815958, Free-mem=74.831 percent
+Jan 15, 2023 2:19:42 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=2343304, edgesBlocked=0, edgesNotBlocked=9715320
+Jan 15, 2023 2:26:16 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2253378, Get-count=2562580, Put-count=4815958, Free-mem=77.781 percent
+Jan 15, 2023 2:26:16 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=2388208, edgesBlocked=0, edgesNotBlocked=9932560
+Jan 15, 2023 2:32:59 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1991234, Get-count=2824724, Put-count=4815958, Free-mem=76.452 percent
+Jan 15, 2023 2:32:59 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=2433118, edgesBlocked=0, edgesNotBlocked=10149794
+Jan 15, 2023 2:39:44 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1729090, Get-count=3086868, Put-count=4815958, Free-mem=75.152 percent
+Jan 15, 2023 2:39:44 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=2477962, edgesBlocked=0, edgesNotBlocked=10367094
+Jan 15, 2023 2:46:35 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1466946, Get-count=3349012, Put-count=4815958, Free-mem=73.858 percent
+Jan 15, 2023 2:46:35 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=2529985, edgesBlocked=0, edgesNotBlocked=10577215
+Jan 15, 2023 2:54:32 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1204802, Get-count=3611156, Put-count=4815958, Free-mem=76.860 percent
+Jan 15, 2023 2:54:32 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=2583102, edgesBlocked=0, edgesNotBlocked=10786242
+Jan 15, 2023 3:02:37 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=942658, Get-count=3873300, Put-count=4815958, Free-mem=75.545 percent
+Jan 15, 2023 3:02:37 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=2628121, edgesBlocked=0, edgesNotBlocked=11003367
+Jan 15, 2023 3:09:39 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=680514, Get-count=4135444, Put-count=4815958, Free-mem=74.187 percent
+Jan 15, 2023 3:09:39 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=2679194, edgesBlocked=0, edgesNotBlocked=11214438
+Jan 15, 2023 3:17:34 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=418370, Get-count=4397588, Put-count=4815958, Free-mem=77.055 percent
+Jan 15, 2023 3:17:34 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=2732398, edgesBlocked=0, edgesNotBlocked=11423378
+Jan 15, 2023 3:25:59 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=156226, Get-count=4659732, Put-count=4815958, Free-mem=75.742 percent
+Jan 15, 2023 3:25:59 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=2778386, edgesBlocked=0, edgesNotBlocked=11639534
+Jan 15, 2023 3:26:02 AM spade.core.Kernel removeCommand INFO: Reporter shut down: Graphviz
+Jan 15, 2023 3:26:04 AM spade.core.Kernel addReporterCommand INFO: Adding reporter: Graphviz
+Jan 15, 2023 3:26:04 AM spade.core.BlockingBuffer log INFO: [Graphviz] workableFreeMemory=20.000%, reportingIntervalSeconds=120(enabled), sleepWaitMillis=1000
+Jan 15, 2023 3:26:04 AM spade.core.Kernel addReporterCommand INFO: Memory usage limited buffer used for reporter 'Graphviz' with 'workableFreeMemory'='20' from '/home/vagrant/SPADE/./cfg/spade.core.AbstractReporter.config'
+Jan 15, 2023 3:26:04 AM spade.reporter.Graphviz log INFO: Arguments [input=/home/vagrant/trace_dots/3.dot, reportingIntervalSeconds=120, referenceMode=true]
+Jan 15, 2023 3:26:04 AM spade.core.Kernel addReporterCommand INFO: Reporter added: Graphviz input=/home/vagrant/trace_dots/3.dot
+Jan 15, 2023 3:28:04 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1442670, Get-count=105918, Put-count=1548588, Free-mem=74.256 percent
+Jan 15, 2023 3:28:04 AM spade.reporter.Graphviz log INFO: Lines [Overall=1548593, Interval=1548593]
+Jan 15, 2023 3:28:04 AM spade.reporter.Graphviz log INFO: Vertices [Overall=353111, Interval=353111]
+Jan 15, 2023 3:28:04 AM spade.reporter.Graphviz log INFO: Edges [Overall=1195478, Interval=1195478]
+Jan 15, 2023 3:28:05 AM spade.reporter.Graphviz log INFO: Current Buffer Size=1442671
+Jan 15, 2023 3:30:05 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2869561, Get-count=105918, Put-count=2975479, Free-mem=72.476 percent
+Jan 15, 2023 3:30:05 AM spade.reporter.Graphviz log INFO: Lines [Overall=2975484, Interval=1426891]
+Jan 15, 2023 3:30:05 AM spade.reporter.Graphviz log INFO: Vertices [Overall=632217, Interval=279106]
+Jan 15, 2023 3:30:05 AM spade.reporter.Graphviz log INFO: Edges [Overall=2343263, Interval=1147785]
+Jan 15, 2023 3:30:06 AM spade.reporter.Graphviz log INFO: Current Buffer Size=2869562
+Jan 15, 2023 3:32:05 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4311424, Get-count=105918, Put-count=4417342, Free-mem=70.612 percent
+Jan 15, 2023 3:32:06 AM spade.reporter.Graphviz log INFO: Lines [Overall=4425534, Interval=1450050]
+Jan 15, 2023 3:32:06 AM spade.reporter.Graphviz log INFO: Vertices [Overall=908035, Interval=275818]
+Jan 15, 2023 3:32:06 AM spade.reporter.Graphviz log INFO: Edges [Overall=3517495, Interval=1174232]
+Jan 15, 2023 3:32:07 AM spade.reporter.Graphviz log INFO: Current Buffer Size=4319612
+Jan 15, 2023 3:32:22 AM spade.reporter.Graphviz log INFO: Finished reading input file
+Jan 15, 2023 3:32:22 AM spade.reporter.Graphviz log INFO: Exited main thread
+Jan 15, 2023 3:32:27 AM spade.reporter.Graphviz log INFO: Waiting for main thread to exit... 
+Jan 15, 2023 3:32:27 AM spade.reporter.Graphviz log INFO: Lines [Overall=4633403, Interval=207869]
+Jan 15, 2023 3:32:27 AM spade.reporter.Graphviz log INFO: Vertices [Overall=948208, Interval=40173]
+Jan 15, 2023 3:32:27 AM spade.reporter.Graphviz log INFO: Edges [Overall=3685190, Interval=167695]
+Jan 15, 2023 3:32:29 AM spade.reporter.Graphviz log INFO: Current Buffer Size=4527480
+Jan 15, 2023 3:32:29 AM spade.core.Kernel removeCommand INFO: Shutting down reporter: Graphviz
+Jan 15, 2023 3:34:21 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4527480, Get-count=105918, Put-count=4633398, Free-mem=68.806 percent
+Jan 15, 2023 3:34:21 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=2897604, edgesBlocked=0, edgesNotBlocked=11782460
+Jan 15, 2023 3:53:10 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4265336, Get-count=368062, Put-count=4633398, Free-mem=70.192 percent
+Jan 15, 2023 3:53:10 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=2942411, edgesBlocked=0, edgesNotBlocked=11999797
+Jan 15, 2023 4:00:28 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4003192, Get-count=630206, Put-count=4633398, Free-mem=68.900 percent
+Jan 15, 2023 4:00:28 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=2987417, edgesBlocked=0, edgesNotBlocked=12216935
+Jan 15, 2023 4:07:54 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3741048, Get-count=892350, Put-count=4633398, Free-mem=67.549 percent
+Jan 15, 2023 4:07:54 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=3037190, edgesBlocked=0, edgesNotBlocked=12429306
+Jan 15, 2023 4:16:14 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3478904, Get-count=1154494, Put-count=4633398, Free-mem=70.024 percent
+Jan 15, 2023 4:16:14 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=3090332, edgesBlocked=0, edgesNotBlocked=12638308
+Jan 15, 2023 4:25:12 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3216760, Get-count=1416638, Put-count=4633398, Free-mem=68.715 percent
+Jan 15, 2023 4:25:12 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=3137571, edgesBlocked=0, edgesNotBlocked=12853213
+Jan 15, 2023 4:33:32 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2954616, Get-count=1678782, Put-count=4633398, Free-mem=67.367 percent
+Jan 15, 2023 4:33:32 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=3182548, edgesBlocked=0, edgesNotBlocked=13070380
+Jan 15, 2023 4:41:27 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2692472, Get-count=1940926, Put-count=4633398, Free-mem=70.435 percent
+Jan 15, 2023 4:41:27 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=3229423, edgesBlocked=0, edgesNotBlocked=13285649
+Jan 15, 2023 4:49:47 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2430328, Get-count=2203070, Put-count=4633398, Free-mem=69.106 percent
+Jan 15, 2023 4:49:47 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=3282537, edgesBlocked=0, edgesNotBlocked=13494679
+Jan 15, 2023 4:59:21 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2168184, Get-count=2465214, Put-count=4633398, Free-mem=67.808 percent
+Jan 15, 2023 4:59:21 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=3335786, edgesBlocked=0, edgesNotBlocked=13703574
+Jan 15, 2023 5:09:03 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1906040, Get-count=2727358, Put-count=4633398, Free-mem=70.834 percent
+Jan 15, 2023 5:09:03 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=3388892, edgesBlocked=0, edgesNotBlocked=13912612
+Jan 15, 2023 5:18:49 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1643896, Get-count=2989502, Put-count=4633398, Free-mem=69.536 percent
+Jan 15, 2023 5:18:49 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=3442119, edgesBlocked=0, edgesNotBlocked=14121529
+Jan 15, 2023 5:28:41 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1381752, Get-count=3251646, Put-count=4633398, Free-mem=68.193 percent
+Jan 15, 2023 5:28:41 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=3495293, edgesBlocked=0, edgesNotBlocked=14330499
+Jan 15, 2023 5:38:31 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1119608, Get-count=3513790, Put-count=4633398, Free-mem=66.901 percent
+Jan 15, 2023 5:38:31 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=3548523, edgesBlocked=0, edgesNotBlocked=14539413
+Jan 15, 2023 5:48:29 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=857464, Get-count=3775934, Put-count=4633398, Free-mem=69.965 percent
+Jan 15, 2023 5:48:29 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=3601700, edgesBlocked=0, edgesNotBlocked=14748380
+Jan 15, 2023 5:58:33 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=595320, Get-count=4038078, Put-count=4633398, Free-mem=68.658 percent
+Jan 15, 2023 5:58:33 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=3648671, edgesBlocked=0, edgesNotBlocked=14963553
+Jan 15, 2023 6:07:34 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=333176, Get-count=4300222, Put-count=4633398, Free-mem=67.317 percent
+Jan 15, 2023 6:07:34 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=3693647, edgesBlocked=0, edgesNotBlocked=15180721
+Jan 15, 2023 6:16:24 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=71032, Get-count=4562366, Put-count=4633398, Free-mem=70.232 percent
+Jan 15, 2023 6:16:24 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=3740874, edgesBlocked=0, edgesNotBlocked=15395638
+Jan 15, 2023 6:16:25 AM spade.core.Kernel removeCommand INFO: Reporter shut down: Graphviz
+Jan 15, 2023 6:16:28 AM spade.core.Kernel addReporterCommand INFO: Adding reporter: Graphviz
+Jan 15, 2023 6:16:28 AM spade.core.BlockingBuffer log INFO: [Graphviz] workableFreeMemory=20.000%, reportingIntervalSeconds=120(enabled), sleepWaitMillis=1000
+Jan 15, 2023 6:16:28 AM spade.core.Kernel addReporterCommand INFO: Memory usage limited buffer used for reporter 'Graphviz' with 'workableFreeMemory'='20' from '/home/vagrant/SPADE/./cfg/spade.core.AbstractReporter.config'
+Jan 15, 2023 6:16:28 AM spade.reporter.Graphviz log INFO: Arguments [input=/home/vagrant/trace_dots/4.dot, reportingIntervalSeconds=120, referenceMode=true]
+Jan 15, 2023 6:16:28 AM spade.core.Kernel addReporterCommand INFO: Reporter added: Graphviz input=/home/vagrant/trace_dots/4.dot
+Jan 15, 2023 6:18:28 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1256521, Get-count=191112, Put-count=1447633, Free-mem=68.725 percent
+Jan 15, 2023 6:18:28 AM spade.reporter.Graphviz log INFO: Lines [Overall=1447638, Interval=1447638]
+Jan 15, 2023 6:18:28 AM spade.reporter.Graphviz log INFO: Vertices [Overall=322132, Interval=322132]
+Jan 15, 2023 6:18:28 AM spade.reporter.Graphviz log INFO: Edges [Overall=1125502, Interval=1125502]
+Jan 15, 2023 6:18:29 AM spade.reporter.Graphviz log INFO: Current Buffer Size=1256522
+Jan 15, 2023 6:20:32 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2702746, Get-count=191112, Put-count=2893858, Free-mem=66.879 percent
+Jan 15, 2023 6:20:32 AM spade.reporter.Graphviz log INFO: Lines [Overall=2893863, Interval=1446225]
+Jan 15, 2023 6:20:32 AM spade.reporter.Graphviz log INFO: Vertices [Overall=585233, Interval=263101]
+Jan 15, 2023 6:20:32 AM spade.reporter.Graphviz log INFO: Edges [Overall=2308626, Interval=1183124]
+Jan 15, 2023 6:20:33 AM spade.reporter.Graphviz log INFO: Current Buffer Size=2702747
+Jan 15, 2023 6:22:32 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4107239, Get-count=191112, Put-count=4298351, Free-mem=62.697 percent
+Jan 15, 2023 6:22:33 AM spade.reporter.Graphviz log INFO: Lines [Overall=4303818, Interval=1409955]
+Jan 15, 2023 6:22:33 AM spade.reporter.Graphviz log INFO: Vertices [Overall=847304, Interval=262071]
+Jan 15, 2023 6:22:33 AM spade.reporter.Graphviz log INFO: Edges [Overall=3456510, Interval=1147884]
+Jan 15, 2023 6:22:34 AM spade.reporter.Graphviz log INFO: Current Buffer Size=4112702
+Jan 15, 2023 6:23:08 AM spade.reporter.Graphviz log INFO: Finished reading input file
+Jan 15, 2023 6:23:08 AM spade.reporter.Graphviz log INFO: Exited main thread
+Jan 15, 2023 6:23:12 AM spade.reporter.Graphviz log INFO: Waiting for main thread to exit... 
+Jan 15, 2023 6:23:12 AM spade.reporter.Graphviz log INFO: Lines [Overall=4697249, Interval=393431]
+Jan 15, 2023 6:23:12 AM spade.reporter.Graphviz log INFO: Vertices [Overall=925743, Interval=78439]
+Jan 15, 2023 6:23:12 AM spade.reporter.Graphviz log INFO: Edges [Overall=3771501, Interval=314991]
+Jan 15, 2023 6:23:13 AM spade.reporter.Graphviz log INFO: Current Buffer Size=4506132
+Jan 15, 2023 6:23:13 AM spade.core.Kernel removeCommand INFO: Shutting down reporter: Graphviz
+Jan 15, 2023 6:26:44 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4506132, Get-count=191112, Put-count=4697244, Free-mem=62.555 percent
+Jan 15, 2023 6:26:44 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=3846546, edgesBlocked=0, edgesNotBlocked=15552110
+Jan 15, 2023 6:47:45 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4243988, Get-count=453256, Put-count=4697244, Free-mem=61.116 percent
+Jan 15, 2023 6:47:45 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=3891472, edgesBlocked=0, edgesNotBlocked=15769328
+Jan 15, 2023 6:56:43 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3981844, Get-count=715400, Put-count=4697244, Free-mem=63.133 percent
+Jan 15, 2023 6:56:43 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=3936313, edgesBlocked=0, edgesNotBlocked=15986631
+Jan 15, 2023 7:05:44 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3719700, Get-count=977544, Put-count=4697244, Free-mem=61.857 percent
+Jan 15, 2023 7:05:44 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=3989483, edgesBlocked=0, edgesNotBlocked=16195605
+Jan 15, 2023 7:16:27 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3457556, Get-count=1239688, Put-count=4697244, Free-mem=60.503 percent
+Jan 15, 2023 7:16:27 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=4041820, edgesBlocked=0, edgesNotBlocked=16405412
+Jan 15, 2023 7:27:10 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3195412, Get-count=1501832, Put-count=4697244, Free-mem=63.106 percent
+Jan 15, 2023 7:27:10 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=4086669, edgesBlocked=0, edgesNotBlocked=16622707
+Jan 15, 2023 7:36:24 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2933268, Get-count=1763976, Put-count=4697244, Free-mem=61.835 percent
+Jan 15, 2023 7:36:24 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=4138711, edgesBlocked=0, edgesNotBlocked=16832809
+Jan 15, 2023 7:47:14 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2671124, Get-count=2026120, Put-count=4697244, Free-mem=60.485 percent
+Jan 15, 2023 7:47:14 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=4191872, edgesBlocked=0, edgesNotBlocked=17041792
+Jan 15, 2023 7:58:25 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2408980, Get-count=2288264, Put-count=4697244, Free-mem=63.543 percent
+Jan 15, 2023 7:58:25 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=4236844, edgesBlocked=0, edgesNotBlocked=17258964
+Jan 15, 2023 8:08:01 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2146836, Get-count=2550408, Put-count=4697244, Free-mem=62.182 percent
+Jan 15, 2023 8:08:01 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=4281726, edgesBlocked=0, edgesNotBlocked=17476226
+Jan 15, 2023 8:17:34 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1884692, Get-count=2812552, Put-count=4697244, Free-mem=60.847 percent
+Jan 15, 2023 8:17:34 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=4326613, edgesBlocked=0, edgesNotBlocked=17693483
+Jan 15, 2023 8:27:08 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1622548, Get-count=3074696, Put-count=4697244, Free-mem=63.824 percent
+Jan 15, 2023 8:27:08 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=4371509, edgesBlocked=0, edgesNotBlocked=17910731
+Jan 15, 2023 8:35:19 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1360404, Get-count=3336840, Put-count=4697244, Free-mem=62.515 percent
+Jan 15, 2023 8:35:19 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=4416383, edgesBlocked=0, edgesNotBlocked=18128001
+Jan 15, 2023 8:40:12 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1098260, Get-count=3598984, Put-count=4697244, Free-mem=61.233 percent
+Jan 15, 2023 8:40:12 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=4461226, edgesBlocked=0, edgesNotBlocked=18345302
+Jan 15, 2023 8:44:40 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=836116, Get-count=3861128, Put-count=4697244, Free-mem=59.956 percent
+Jan 15, 2023 8:44:40 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=4512628, edgesBlocked=0, edgesNotBlocked=18556044
+Jan 15, 2023 8:49:50 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=573972, Get-count=4123272, Put-count=4697244, Free-mem=63.031 percent
+Jan 15, 2023 8:49:50 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=4565698, edgesBlocked=0, edgesNotBlocked=18765118
+Jan 15, 2023 8:55:04 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=311828, Get-count=4385416, Put-count=4697244, Free-mem=61.742 percent
+Jan 15, 2023 8:55:04 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=4619102, edgesBlocked=0, edgesNotBlocked=18973858
+Jan 15, 2023 9:00:16 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=49684, Get-count=4647560, Put-count=4697244, Free-mem=60.378 percent
+Jan 15, 2023 9:00:16 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=4672536, edgesBlocked=0, edgesNotBlocked=19182568
+Jan 15, 2023 9:00:16 AM spade.core.Kernel removeCommand INFO: Reporter shut down: Graphviz
+Jan 15, 2023 9:00:18 AM spade.core.Kernel addReporterCommand INFO: Adding reporter: Graphviz
+Jan 15, 2023 9:00:18 AM spade.core.BlockingBuffer log INFO: [Graphviz] workableFreeMemory=20.000%, reportingIntervalSeconds=120(enabled), sleepWaitMillis=1000
+Jan 15, 2023 9:00:18 AM spade.core.Kernel addReporterCommand INFO: Memory usage limited buffer used for reporter 'Graphviz' with 'workableFreeMemory'='20' from '/home/vagrant/SPADE/./cfg/spade.core.AbstractReporter.config'
+Jan 15, 2023 9:00:18 AM spade.reporter.Graphviz log INFO: Arguments [input=/home/vagrant/trace_dots/5.dot, reportingIntervalSeconds=120, referenceMode=true]
+Jan 15, 2023 9:00:18 AM spade.core.Kernel addReporterCommand INFO: Reporter added: Graphviz input=/home/vagrant/trace_dots/5.dot
+Jan 15, 2023 9:02:18 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2758726, Get-count=212460, Put-count=2971186, Free-mem=84.271 percent
+Jan 15, 2023 9:02:18 AM spade.reporter.Graphviz log INFO: Lines [Overall=2971191, Interval=2971191]
+Jan 15, 2023 9:02:18 AM spade.reporter.Graphviz log INFO: Vertices [Overall=585601, Interval=585601]
+Jan 15, 2023 9:02:18 AM spade.reporter.Graphviz log INFO: Edges [Overall=2385586, Interval=2385586]
+Jan 15, 2023 9:02:19 AM spade.reporter.Graphviz log INFO: Current Buffer Size=2758727
+Jan 15, 2023 9:03:34 AM spade.reporter.Graphviz log INFO: Finished reading input file
+Jan 15, 2023 9:03:34 AM spade.reporter.Graphviz log INFO: Exited main thread
+Jan 15, 2023 9:03:39 AM spade.reporter.Graphviz log INFO: Waiting for main thread to exit... 
+Jan 15, 2023 9:03:39 AM spade.reporter.Graphviz log INFO: Lines [Overall=4748536, Interval=1777345]
+Jan 15, 2023 9:03:39 AM spade.reporter.Graphviz log INFO: Vertices [Overall=925882, Interval=340281]
+Jan 15, 2023 9:03:39 AM spade.reporter.Graphviz log INFO: Edges [Overall=3822649, Interval=1437063]
+Jan 15, 2023 9:03:40 AM spade.reporter.Graphviz log INFO: Current Buffer Size=4536071
+Jan 15, 2023 9:03:40 AM spade.core.Kernel removeCommand INFO: Shutting down reporter: Graphviz
+Jan 15, 2023 9:05:46 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4536071, Get-count=212460, Put-count=4748531, Free-mem=84.965 percent
+Jan 15, 2023 9:05:46 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=4755393, edgesBlocked=0, edgesNotBlocked=19361855
+Jan 15, 2023 9:13:40 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4273927, Get-count=474604, Put-count=4748531, Free-mem=83.560 percent
+Jan 15, 2023 9:13:40 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=4791327, edgesBlocked=0, edgesNotBlocked=19588065
+Jan 15, 2023 9:17:14 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4011783, Get-count=736748, Put-count=4748531, Free-mem=82.177 percent
+Jan 15, 2023 9:17:14 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=4843680, edgesBlocked=0, edgesNotBlocked=19797856
+Jan 15, 2023 9:22:27 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3749639, Get-count=998892, Put-count=4748531, Free-mem=85.665 percent
+Jan 15, 2023 9:22:27 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=4897097, edgesBlocked=0, edgesNotBlocked=20006583
+Jan 15, 2023 9:27:49 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3487495, Get-count=1261036, Put-count=4748531, Free-mem=84.377 percent
+Jan 15, 2023 9:27:49 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=4950251, edgesBlocked=0, edgesNotBlocked=20215573
+Jan 15, 2023 9:33:10 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3225351, Get-count=1523180, Put-count=4748531, Free-mem=83.087 percent
+Jan 15, 2023 9:33:10 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=5003570, edgesBlocked=0, edgesNotBlocked=20424398
+Jan 15, 2023 9:38:37 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2963207, Get-count=1785324, Put-count=4748531, Free-mem=87.100 percent
+Jan 15, 2023 9:38:37 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=5056694, edgesBlocked=0, edgesNotBlocked=20633418
+Jan 15, 2023 9:44:03 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2701063, Get-count=2047468, Put-count=4748531, Free-mem=85.806 percent
+Jan 15, 2023 9:44:03 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=5107654, edgesBlocked=0, edgesNotBlocked=20844602
+Jan 15, 2023 9:49:18 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2438919, Get-count=2309612, Put-count=4748531, Free-mem=84.486 percent
+Jan 15, 2023 9:49:18 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=5152557, edgesBlocked=0, edgesNotBlocked=21061843
+Jan 15, 2023 9:54:01 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2176775, Get-count=2571756, Put-count=4748531, Free-mem=87.450 percent
+Jan 15, 2023 9:54:01 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=5197539, edgesBlocked=0, edgesNotBlocked=21279005
+Jan 15, 2023 9:58:44 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1914631, Get-count=2833900, Put-count=4748531, Free-mem=86.158 percent
+Jan 15, 2023 9:58:44 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=5242480, edgesBlocked=0, edgesNotBlocked=21496208
+Jan 15, 2023 10:03:27 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1652487, Get-count=3096044, Put-count=4748531, Free-mem=84.810 percent
+Jan 15, 2023 10:03:27 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=5291935, edgesBlocked=0, edgesNotBlocked=21708897
+Jan 15, 2023 10:08:38 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1390343, Get-count=3358188, Put-count=4748531, Free-mem=87.691 percent
+Jan 15, 2023 10:08:38 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=5345071, edgesBlocked=0, edgesNotBlocked=21917905
+Jan 15, 2023 10:14:15 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1128199, Get-count=3620332, Put-count=4748531, Free-mem=86.402 percent
+Jan 15, 2023 10:14:15 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=5392712, edgesBlocked=0, edgesNotBlocked=22132408
+Jan 15, 2023 10:19:18 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=866055, Get-count=3882476, Put-count=4748531, Free-mem=85.061 percent
+Jan 15, 2023 10:19:18 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=5441357, edgesBlocked=0, edgesNotBlocked=22345907
+Jan 15, 2023 10:24:28 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=603911, Get-count=4144620, Put-count=4748531, Free-mem=83.752 percent
+Jan 15, 2023 10:24:28 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=5494656, edgesBlocked=0, edgesNotBlocked=22554752
+Jan 15, 2023 10:30:11 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=341767, Get-count=4406764, Put-count=4748531, Free-mem=86.725 percent
+Jan 15, 2023 10:30:11 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=5543145, edgesBlocked=0, edgesNotBlocked=22768407
+Jan 15, 2023 10:35:22 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=79623, Get-count=4668908, Put-count=4748531, Free-mem=85.410 percent
+Jan 15, 2023 10:35:22 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=5590758, edgesBlocked=0, edgesNotBlocked=22982938
+Jan 15, 2023 10:35:23 AM spade.core.Kernel removeCommand INFO: Reporter shut down: Graphviz
+Jan 15, 2023 10:35:25 AM spade.core.Kernel addReporterCommand INFO: Adding reporter: Graphviz
+Jan 15, 2023 10:35:25 AM spade.core.BlockingBuffer log INFO: [Graphviz] workableFreeMemory=20.000%, reportingIntervalSeconds=120(enabled), sleepWaitMillis=1000
+Jan 15, 2023 10:35:25 AM spade.core.Kernel addReporterCommand INFO: Memory usage limited buffer used for reporter 'Graphviz' with 'workableFreeMemory'='20' from '/home/vagrant/SPADE/./cfg/spade.core.AbstractReporter.config'
+Jan 15, 2023 10:35:25 AM spade.reporter.Graphviz log INFO: Arguments [input=/home/vagrant/trace_dots/6.dot, reportingIntervalSeconds=120, referenceMode=true]
+Jan 15, 2023 10:35:25 AM spade.core.Kernel addReporterCommand INFO: Reporter added: Graphviz input=/home/vagrant/trace_dots/6.dot
+Jan 15, 2023 10:37:25 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2892198, Get-count=182521, Put-count=3074719, Free-mem=81.732 percent
+Jan 15, 2023 10:37:25 AM spade.reporter.Graphviz log INFO: Lines [Overall=3074724, Interval=3074724]
+Jan 15, 2023 10:37:25 AM spade.reporter.Graphviz log INFO: Vertices [Overall=665939, Interval=665939]
+Jan 15, 2023 10:37:25 AM spade.reporter.Graphviz log INFO: Edges [Overall=2408781, Interval=2408781]
+Jan 15, 2023 10:37:26 AM spade.reporter.Graphviz log INFO: Current Buffer Size=2892199
+Jan 15, 2023 10:38:32 AM spade.reporter.Graphviz log INFO: Finished reading input file
+Jan 15, 2023 10:38:32 AM spade.reporter.Graphviz log INFO: Exited main thread
+Jan 15, 2023 10:38:37 AM spade.reporter.Graphviz log INFO: Waiting for main thread to exit... 
+Jan 15, 2023 10:38:37 AM spade.reporter.Graphviz log INFO: Lines [Overall=4720747, Interval=1646023]
+Jan 15, 2023 10:38:37 AM spade.reporter.Graphviz log INFO: Vertices [Overall=989954, Interval=324015]
+Jan 15, 2023 10:38:37 AM spade.reporter.Graphviz log INFO: Edges [Overall=3730788, Interval=1322007]
+Jan 15, 2023 10:38:38 AM spade.reporter.Graphviz log INFO: Current Buffer Size=4538221
+Jan 15, 2023 10:38:38 AM spade.core.Kernel removeCommand INFO: Shutting down reporter: Graphviz
+Jan 15, 2023 10:40:56 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4538221, Get-count=182521, Put-count=4720742, Free-mem=80.864 percent
+Jan 15, 2023 10:40:56 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=5696383, edgesBlocked=0, edgesNotBlocked=23139457
+Jan 15, 2023 10:52:18 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4276077, Get-count=444665, Put-count=4720742, Free-mem=79.442 percent
+Jan 15, 2023 10:52:18 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=5749495, edgesBlocked=0, edgesNotBlocked=23348489
+Jan 15, 2023 10:58:09 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4013933, Get-count=706809, Put-count=4720742, Free-mem=78.141 percent
+Jan 15, 2023 10:58:09 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=5797838, edgesBlocked=0, edgesNotBlocked=23562290
+Jan 15, 2023 11:03:32 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3751789, Get-count=968953, Put-count=4720742, Free-mem=80.598 percent
+Jan 15, 2023 11:03:32 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=5845526, edgesBlocked=0, edgesNotBlocked=23776746
+Jan 15, 2023 11:08:58 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3489645, Get-count=1231097, Put-count=4720742, Free-mem=79.286 percent
+Jan 15, 2023 11:08:58 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=5898720, edgesBlocked=0, edgesNotBlocked=23985696
+Jan 15, 2023 11:15:06 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3227501, Get-count=1493241, Put-count=4720742, Free-mem=78.003 percent
+Jan 15, 2023 11:15:06 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=5951972, edgesBlocked=0, edgesNotBlocked=24194588
+Jan 15, 2023 11:20:56 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2965357, Get-count=1755385, Put-count=4720742, Free-mem=76.682 percent
+Jan 15, 2023 11:20:56 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=6005100, edgesBlocked=0, edgesNotBlocked=24403604
+Jan 15, 2023 11:26:46 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2703213, Get-count=2017529, Put-count=4720742, Free-mem=79.870 percent
+Jan 15, 2023 11:26:46 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=6058353, edgesBlocked=0, edgesNotBlocked=24612495
+Jan 15, 2023 11:32:42 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2441069, Get-count=2279673, Put-count=4720742, Free-mem=78.552 percent
+Jan 15, 2023 11:32:42 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=6111464, edgesBlocked=0, edgesNotBlocked=24821528
+Jan 15, 2023 11:38:36 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2178925, Get-count=2541817, Put-count=4720742, Free-mem=77.259 percent
+Jan 15, 2023 11:38:36 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=6164731, edgesBlocked=0, edgesNotBlocked=25030405
+Jan 15, 2023 11:44:36 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1916781, Get-count=2803961, Put-count=4720742, Free-mem=80.253 percent
+Jan 15, 2023 11:44:36 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=6217861, edgesBlocked=0, edgesNotBlocked=25239419
+Jan 15, 2023 11:50:35 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1654637, Get-count=3066105, Put-count=4720742, Free-mem=78.975 percent
+Jan 15, 2023 11:50:35 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=6271090, edgesBlocked=0, edgesNotBlocked=25448334
+Jan 15, 2023 11:56:39 AM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1392493, Get-count=3328249, Put-count=4720742, Free-mem=77.622 percent
+Jan 15, 2023 11:56:39 AM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=6324324, edgesBlocked=0, edgesNotBlocked=25657244
+Jan 15, 2023 12:02:43 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1130349, Get-count=3590393, Put-count=4720742, Free-mem=80.632 percent
+Jan 15, 2023 12:02:43 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=6377526, edgesBlocked=0, edgesNotBlocked=25866186
+Jan 15, 2023 12:08:47 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=868205, Get-count=3852537, Put-count=4720742, Free-mem=79.354 percent
+Jan 15, 2023 12:08:47 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=6430881, edgesBlocked=0, edgesNotBlocked=26074975
+Jan 15, 2023 12:14:56 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=606061, Get-count=4114681, Put-count=4720742, Free-mem=78.046 percent
+Jan 15, 2023 12:14:56 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=6484056, edgesBlocked=0, edgesNotBlocked=26283944
+Jan 15, 2023 12:21:06 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=343917, Get-count=4376825, Put-count=4720742, Free-mem=76.763 percent
+Jan 15, 2023 12:21:06 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=6535169, edgesBlocked=0, edgesNotBlocked=26494975
+Jan 15, 2023 12:27:07 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=81773, Get-count=4638969, Put-count=4720742, Free-mem=79.794 percent
+Jan 15, 2023 12:27:07 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=6580257, edgesBlocked=0, edgesNotBlocked=26712031
+Jan 15, 2023 12:27:07 PM spade.core.Kernel removeCommand INFO: Reporter shut down: Graphviz
+Jan 15, 2023 12:27:09 PM spade.core.Kernel addReporterCommand INFO: Adding reporter: Graphviz
+Jan 15, 2023 12:27:09 PM spade.core.BlockingBuffer log INFO: [Graphviz] workableFreeMemory=20.000%, reportingIntervalSeconds=120(enabled), sleepWaitMillis=1000
+Jan 15, 2023 12:27:09 PM spade.core.Kernel addReporterCommand INFO: Memory usage limited buffer used for reporter 'Graphviz' with 'workableFreeMemory'='20' from '/home/vagrant/SPADE/./cfg/spade.core.AbstractReporter.config'
+Jan 15, 2023 12:27:09 PM spade.reporter.Graphviz log INFO: Arguments [input=/home/vagrant/trace_dots/7.dot, reportingIntervalSeconds=120, referenceMode=true]
+Jan 15, 2023 12:27:09 PM spade.core.Kernel addReporterCommand INFO: Reporter added: Graphviz input=/home/vagrant/trace_dots/7.dot
+Jan 15, 2023 12:29:09 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2966093, Get-count=180371, Put-count=3146464, Free-mem=75.367 percent
+Jan 15, 2023 12:29:09 PM spade.reporter.Graphviz log INFO: Lines [Overall=3146469, Interval=3146469]
+Jan 15, 2023 12:29:09 PM spade.reporter.Graphviz log INFO: Vertices [Overall=656220, Interval=656220]
+Jan 15, 2023 12:29:09 PM spade.reporter.Graphviz log INFO: Edges [Overall=2490245, Interval=2490245]
+Jan 15, 2023 12:29:10 PM spade.reporter.Graphviz log INFO: Current Buffer Size=2966094
+Jan 15, 2023 12:30:09 PM spade.reporter.Graphviz log INFO: Finished reading input file
+Jan 15, 2023 12:30:09 PM spade.reporter.Graphviz log INFO: Exited main thread
+Jan 15, 2023 12:30:21 PM spade.reporter.Graphviz log INFO: Waiting for main thread to exit... 
+Jan 15, 2023 12:30:21 PM spade.reporter.Graphviz log INFO: Lines [Overall=4652040, Interval=1505571]
+Jan 15, 2023 12:30:21 PM spade.reporter.Graphviz log INFO: Vertices [Overall=937305, Interval=281085]
+Jan 15, 2023 12:30:21 PM spade.reporter.Graphviz log INFO: Edges [Overall=3714730, Interval=1224485]
+Jan 15, 2023 12:30:22 PM spade.reporter.Graphviz log INFO: Current Buffer Size=4471664
+Jan 15, 2023 12:30:22 PM spade.core.Kernel removeCommand INFO: Shutting down reporter: Graphviz
+Jan 15, 2023 12:32:47 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4471664, Get-count=180371, Put-count=4652035, Free-mem=72.489 percent
+Jan 15, 2023 12:32:47 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=6698668, edgesBlocked=0, edgesNotBlocked=26855764
+Jan 15, 2023 12:46:44 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4209520, Get-count=442515, Put-count=4652035, Free-mem=71.062 percent
+Jan 15, 2023 12:46:44 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=6751832, edgesBlocked=0, edgesNotBlocked=27064744
+Jan 15, 2023 12:53:10 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3947376, Get-count=704659, Put-count=4652035, Free-mem=73.070 percent
+Jan 15, 2023 12:53:10 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=6800848, edgesBlocked=0, edgesNotBlocked=27277872
+Jan 15, 2023 12:59:07 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3685232, Get-count=966803, Put-count=4652035, Free-mem=71.744 percent
+Jan 15, 2023 12:59:07 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=6845731, edgesBlocked=0, edgesNotBlocked=27495133
+Jan 15, 2023 1:04:34 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3423088, Get-count=1228947, Put-count=4652035, Free-mem=70.443 percent
+Jan 15, 2023 1:04:34 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=6890579, edgesBlocked=0, edgesNotBlocked=27712429
+Jan 15, 2023 1:10:03 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3160944, Get-count=1491091, Put-count=4652035, Free-mem=73.085 percent
+Jan 15, 2023 1:10:03 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=6935398, edgesBlocked=0, edgesNotBlocked=27929754
+Jan 15, 2023 1:15:32 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2898800, Get-count=1753235, Put-count=4652035, Free-mem=71.815 percent
+Jan 15, 2023 1:15:32 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=6986747, edgesBlocked=0, edgesNotBlocked=28140549
+Jan 15, 2023 1:21:49 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2636656, Get-count=2015379, Put-count=4652035, Free-mem=70.487 percent
+Jan 15, 2023 1:21:49 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=7039848, edgesBlocked=0, edgesNotBlocked=28349592
+Jan 15, 2023 1:28:19 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2374512, Get-count=2277523, Put-count=4652035, Free-mem=73.577 percent
+Jan 15, 2023 1:28:19 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=7085443, edgesBlocked=0, edgesNotBlocked=28566141
+Jan 15, 2023 1:33:57 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2112368, Get-count=2539667, Put-count=4652035, Free-mem=72.221 percent
+Jan 15, 2023 1:33:57 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=7129964, edgesBlocked=0, edgesNotBlocked=28783764
+Jan 15, 2023 1:39:29 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1850224, Get-count=2801811, Put-count=4652035, Free-mem=70.912 percent
+Jan 15, 2023 1:39:29 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=7183111, edgesBlocked=0, edgesNotBlocked=28992761
+Jan 15, 2023 1:46:05 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1588080, Get-count=3063955, Put-count=4652035, Free-mem=69.633 percent
+Jan 15, 2023 1:46:05 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=7236369, edgesBlocked=0, edgesNotBlocked=29201647
+Jan 15, 2023 1:52:42 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1325936, Get-count=3326099, Put-count=4652035, Free-mem=72.744 percent
+Jan 15, 2023 1:52:42 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=7289699, edgesBlocked=0, edgesNotBlocked=29410461
+Jan 15, 2023 1:59:20 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1063792, Get-count=3588243, Put-count=4652035, Free-mem=71.453 percent
+Jan 15, 2023 1:59:20 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=7336634, edgesBlocked=0, edgesNotBlocked=29625670
+Jan 15, 2023 2:05:17 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=801648, Get-count=3850387, Put-count=4652035, Free-mem=70.121 percent
+Jan 15, 2023 2:05:17 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=7385767, edgesBlocked=0, edgesNotBlocked=29838681
+Jan 15, 2023 2:11:30 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=539504, Get-count=4112531, Put-count=4652035, Free-mem=73.092 percent
+Jan 15, 2023 2:11:30 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=7438910, edgesBlocked=0, edgesNotBlocked=30047682
+Jan 15, 2023 2:18:14 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=277360, Get-count=4374675, Put-count=4652035, Free-mem=71.794 percent
+Jan 15, 2023 2:18:14 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=7486719, edgesBlocked=0, edgesNotBlocked=30262017
+Jan 15, 2023 2:24:19 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=15216, Get-count=4636819, Put-count=4652035, Free-mem=70.466 percent
+Jan 15, 2023 2:24:19 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=7531557, edgesBlocked=0, edgesNotBlocked=30479323
+Jan 15, 2023 2:24:20 PM spade.core.Kernel removeCommand INFO: Reporter shut down: Graphviz
+Jan 15, 2023 2:24:21 PM spade.core.Kernel addReporterCommand INFO: Adding reporter: Graphviz
+Jan 15, 2023 2:24:21 PM spade.core.BlockingBuffer log INFO: [Graphviz] workableFreeMemory=20.000%, reportingIntervalSeconds=120(enabled), sleepWaitMillis=1000
+Jan 15, 2023 2:24:21 PM spade.core.Kernel addReporterCommand INFO: Memory usage limited buffer used for reporter 'Graphviz' with 'workableFreeMemory'='20' from '/home/vagrant/SPADE/./cfg/spade.core.AbstractReporter.config'
+Jan 15, 2023 2:24:21 PM spade.reporter.Graphviz log INFO: Arguments [input=/home/vagrant/trace_dots/8.dot, reportingIntervalSeconds=120, referenceMode=true]
+Jan 15, 2023 2:24:21 PM spade.core.Kernel addReporterCommand INFO: Reporter added: Graphviz input=/home/vagrant/trace_dots/8.dot
+Jan 15, 2023 2:26:22 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2861916, Get-count=246928, Put-count=3108844, Free-mem=69.076 percent
+Jan 15, 2023 2:26:22 PM spade.reporter.Graphviz log INFO: Lines [Overall=3108849, Interval=3108849]
+Jan 15, 2023 2:26:22 PM spade.reporter.Graphviz log INFO: Vertices [Overall=792710, Interval=792710]
+Jan 15, 2023 2:26:22 PM spade.reporter.Graphviz log INFO: Edges [Overall=2316135, Interval=2316135]
+Jan 15, 2023 2:26:22 PM spade.reporter.Graphviz log INFO: Current Buffer Size=2861917
+Jan 15, 2023 2:27:24 PM spade.reporter.Graphviz log INFO: Finished reading input file
+Jan 15, 2023 2:27:24 PM spade.reporter.Graphviz log INFO: Exited main thread
+Jan 15, 2023 2:27:33 PM spade.reporter.Graphviz log INFO: Waiting for main thread to exit... 
+Jan 15, 2023 2:27:33 PM spade.reporter.Graphviz log INFO: Lines [Overall=4695510, Interval=1586661]
+Jan 15, 2023 2:27:33 PM spade.reporter.Graphviz log INFO: Vertices [Overall=1194388, Interval=401678]
+Jan 15, 2023 2:27:33 PM spade.reporter.Graphviz log INFO: Edges [Overall=3501117, Interval=1184982]
+Jan 15, 2023 2:27:34 PM spade.reporter.Graphviz log INFO: Current Buffer Size=4448577
+Jan 15, 2023 2:27:34 PM spade.core.Kernel removeCommand INFO: Shutting down reporter: Graphviz
+Jan 15, 2023 2:30:31 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4448577, Get-count=246928, Put-count=4695505, Free-mem=65.303 percent
+Jan 15, 2023 2:30:31 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=7617661, edgesBlocked=0, edgesNotBlocked=30655363
+Jan 15, 2023 2:41:34 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4186433, Get-count=509072, Put-count=4695505, Free-mem=63.916 percent
+Jan 15, 2023 2:41:34 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=7669449, edgesBlocked=0, edgesNotBlocked=30865719
+Jan 15, 2023 2:48:22 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3924289, Get-count=771216, Put-count=4695505, Free-mem=65.886 percent
+Jan 15, 2023 2:48:22 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=7731830, edgesBlocked=0, edgesNotBlocked=31065482
+Jan 15, 2023 2:56:34 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3662145, Get-count=1033360, Put-count=4695505, Free-mem=64.537 percent
+Jan 15, 2023 2:56:34 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=7795627, edgesBlocked=0, edgesNotBlocked=31263829
+Jan 15, 2023 3:05:00 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3400001, Get-count=1295504, Put-count=4695505, Free-mem=63.192 percent
+Jan 15, 2023 3:05:00 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=7865638, edgesBlocked=0, edgesNotBlocked=31455962
+Jan 15, 2023 3:14:23 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3137857, Get-count=1557648, Put-count=4695505, Free-mem=65.838 percent
+Jan 15, 2023 3:14:23 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=7930857, edgesBlocked=0, edgesNotBlocked=31652887
+Jan 15, 2023 3:23:11 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2875713, Get-count=1819792, Put-count=4695505, Free-mem=64.532 percent
+Jan 15, 2023 3:23:11 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=7997247, edgesBlocked=0, edgesNotBlocked=31848641
+Jan 15, 2023 3:32:09 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2613569, Get-count=2081936, Put-count=4695505, Free-mem=63.158 percent
+Jan 15, 2023 3:32:09 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=8065615, edgesBlocked=0, edgesNotBlocked=32042417
+Jan 15, 2023 3:41:26 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2351425, Get-count=2344080, Put-count=4695505, Free-mem=66.201 percent
+Jan 15, 2023 3:41:26 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=8132013, edgesBlocked=0, edgesNotBlocked=32238163
+Jan 15, 2023 3:50:31 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2089281, Get-count=2606224, Put-count=4695505, Free-mem=64.810 percent
+Jan 15, 2023 3:50:31 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=8197957, edgesBlocked=0, edgesNotBlocked=32434363
+Jan 15, 2023 3:59:33 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1827137, Get-count=2868368, Put-count=4695505, Free-mem=63.486 percent
+Jan 15, 2023 3:59:33 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=8265484, edgesBlocked=0, edgesNotBlocked=32628980
+Jan 15, 2023 4:08:52 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1564993, Get-count=3130512, Put-count=4695505, Free-mem=62.123 percent
+Jan 15, 2023 4:08:52 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=8333525, edgesBlocked=0, edgesNotBlocked=32823083
+Jan 15, 2023 4:18:17 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1302849, Get-count=3392656, Put-count=4695505, Free-mem=65.351 percent
+Jan 15, 2023 4:18:17 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=8401019, edgesBlocked=0, edgesNotBlocked=33017733
+Jan 15, 2023 4:27:37 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1040705, Get-count=3654800, Put-count=4695505, Free-mem=63.973 percent
+Jan 15, 2023 4:27:37 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=8469705, edgesBlocked=0, edgesNotBlocked=33211191
+Jan 15, 2023 4:37:08 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=778561, Get-count=3916944, Put-count=4695505, Free-mem=62.623 percent
+Jan 15, 2023 4:37:08 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=8535168, edgesBlocked=0, edgesNotBlocked=33407872
+Jan 15, 2023 4:46:16 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=516417, Get-count=4179088, Put-count=4695505, Free-mem=65.713 percent
+Jan 15, 2023 4:46:16 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=8598492, edgesBlocked=0, edgesNotBlocked=33606692
+Jan 15, 2023 4:55:08 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=254273, Get-count=4441232, Put-count=4695505, Free-mem=64.404 percent
+Jan 15, 2023 4:55:08 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=8665449, edgesBlocked=0, edgesNotBlocked=33801879
+Jan 15, 2023 4:55:10 PM spade.core.Kernel removeCommand INFO: Reporter shut down: Graphviz
+Jan 15, 2023 4:55:12 PM spade.core.Kernel addReporterCommand INFO: Adding reporter: Graphviz
+Jan 15, 2023 4:55:12 PM spade.core.BlockingBuffer log INFO: [Graphviz] workableFreeMemory=20.000%, reportingIntervalSeconds=120(enabled), sleepWaitMillis=1000
+Jan 15, 2023 4:55:12 PM spade.core.Kernel addReporterCommand INFO: Memory usage limited buffer used for reporter 'Graphviz' with 'workableFreeMemory'='20' from '/home/vagrant/SPADE/./cfg/spade.core.AbstractReporter.config'
+Jan 15, 2023 4:55:12 PM spade.reporter.Graphviz log INFO: Arguments [input=/home/vagrant/trace_dots/9.dot, reportingIntervalSeconds=120, referenceMode=true]
+Jan 15, 2023 4:55:12 PM spade.core.Kernel addReporterCommand INFO: Reporter added: Graphviz input=/home/vagrant/trace_dots/9.dot
+Jan 15, 2023 4:57:13 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3169361, Get-count=7871, Put-count=3177232, Free-mem=61.750 percent
+Jan 15, 2023 4:57:13 PM spade.reporter.Graphviz log INFO: Lines [Overall=3177237, Interval=3177237]
+Jan 15, 2023 4:57:13 PM spade.reporter.Graphviz log INFO: Vertices [Overall=845294, Interval=845294]
+Jan 15, 2023 4:57:13 PM spade.reporter.Graphviz log INFO: Edges [Overall=2331939, Interval=2331939]
+Jan 15, 2023 4:57:14 PM spade.reporter.Graphviz log INFO: Current Buffer Size=3169362
+Jan 15, 2023 4:58:14 PM spade.reporter.Graphviz log INFO: Finished reading input file
+Jan 15, 2023 4:58:14 PM spade.reporter.Graphviz log INFO: Exited main thread
+Jan 15, 2023 4:58:24 PM spade.reporter.Graphviz log INFO: Waiting for main thread to exit... 
+Jan 15, 2023 4:58:24 PM spade.reporter.Graphviz log INFO: Lines [Overall=4583561, Interval=1406324]
+Jan 15, 2023 4:58:24 PM spade.reporter.Graphviz log INFO: Vertices [Overall=1226803, Interval=381509]
+Jan 15, 2023 4:58:24 PM spade.reporter.Graphviz log INFO: Edges [Overall=3356753, Interval=1024814]
+Jan 15, 2023 4:58:25 PM spade.reporter.Graphviz log INFO: Current Buffer Size=4575685
+Jan 15, 2023 4:58:25 PM spade.core.Kernel removeCommand INFO: Shutting down reporter: Graphviz
+Jan 15, 2023 5:05:05 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4575685, Get-count=7871, Put-count=4583556, Free-mem=83.365 percent
+Jan 15, 2023 5:05:05 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=8734359, edgesBlocked=0, edgesNotBlocked=33995113
+Jan 15, 2023 5:14:48 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4313541, Get-count=270015, Put-count=4583556, Free-mem=82.015 percent
+Jan 15, 2023 5:14:48 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=8813370, edgesBlocked=0, edgesNotBlocked=34178246
+Jan 15, 2023 5:26:00 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4051397, Get-count=532159, Put-count=4583556, Free-mem=80.552 percent
+Jan 15, 2023 5:26:00 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=8883210, edgesBlocked=0, edgesNotBlocked=34370550
+Jan 15, 2023 5:36:03 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3789253, Get-count=794303, Put-count=4583556, Free-mem=84.319 percent
+Jan 15, 2023 5:36:03 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=8953561, edgesBlocked=0, edgesNotBlocked=34562343
+Jan 15, 2023 5:46:10 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3527109, Get-count=1056447, Put-count=4583556, Free-mem=82.970 percent
+Jan 15, 2023 5:46:10 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=9014698, edgesBlocked=0, edgesNotBlocked=34763350
+Jan 15, 2023 5:55:00 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3264965, Get-count=1318591, Put-count=4583556, Free-mem=81.676 percent
+Jan 15, 2023 5:55:00 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=9084641, edgesBlocked=0, edgesNotBlocked=34955551
+Jan 15, 2023 6:05:09 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3002821, Get-count=1580735, Put-count=4583556, Free-mem=85.742 percent
+Jan 15, 2023 6:05:09 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=9152303, edgesBlocked=0, edgesNotBlocked=35150033
+Jan 15, 2023 6:14:59 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2740677, Get-count=1842879, Put-count=4583556, Free-mem=84.427 percent
+Jan 15, 2023 6:14:59 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=9220936, edgesBlocked=0, edgesNotBlocked=35343544
+Jan 15, 2023 6:24:59 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2478533, Get-count=2105023, Put-count=4583556, Free-mem=83.116 percent
+Jan 15, 2023 6:24:59 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=9289980, edgesBlocked=0, edgesNotBlocked=35536644
+Jan 15, 2023 6:35:07 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2216389, Get-count=2367167, Put-count=4583556, Free-mem=81.771 percent
+Jan 15, 2023 6:35:07 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=9359162, edgesBlocked=0, edgesNotBlocked=35729606
+Jan 15, 2023 6:45:24 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1954245, Get-count=2629311, Put-count=4583556, Free-mem=86.057 percent
+Jan 15, 2023 6:45:24 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=9429395, edgesBlocked=0, edgesNotBlocked=35921517
+Jan 15, 2023 6:55:51 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1692101, Get-count=2891455, Put-count=4583556, Free-mem=84.751 percent
+Jan 15, 2023 6:55:51 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=9499994, edgesBlocked=0, edgesNotBlocked=36113062
+Jan 15, 2023 7:06:28 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1429957, Get-count=3153599, Put-count=4583556, Free-mem=83.401 percent
+Jan 15, 2023 7:06:28 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=9568958, edgesBlocked=0, edgesNotBlocked=36306242
+Jan 15, 2023 7:17:13 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1167813, Get-count=3415743, Put-count=4583556, Free-mem=87.097 percent
+Jan 15, 2023 7:17:13 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=9632508, edgesBlocked=0, edgesNotBlocked=36504836
+Jan 15, 2023 7:28:57 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=905669, Get-count=3677887, Put-count=4583556, Free-mem=85.808 percent
+Jan 15, 2023 7:28:57 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=9709247, edgesBlocked=0, edgesNotBlocked=36690241
+Jan 15, 2023 7:50:06 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=643525, Get-count=3940031, Put-count=4583556, Free-mem=84.474 percent
+Jan 15, 2023 7:50:06 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=9785160, edgesBlocked=0, edgesNotBlocked=36876472
+Jan 15, 2023 8:10:41 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=381381, Get-count=4202175, Put-count=4583556, Free-mem=87.440 percent
+Jan 15, 2023 8:10:41 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=9853278, edgesBlocked=0, edgesNotBlocked=37070498
+Jan 15, 2023 8:29:05 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=119237, Get-count=4464319, Put-count=4583556, Free-mem=86.103 percent
+Jan 15, 2023 8:29:05 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=9920526, edgesBlocked=0, edgesNotBlocked=37265394
+Jan 15, 2023 8:29:07 PM spade.core.Kernel removeCommand INFO: Reporter shut down: Graphviz
+Jan 15, 2023 8:29:09 PM spade.core.Kernel addReporterCommand INFO: Adding reporter: Graphviz
+Jan 15, 2023 8:29:09 PM spade.core.BlockingBuffer log INFO: [Graphviz] workableFreeMemory=20.000%, reportingIntervalSeconds=120(enabled), sleepWaitMillis=1000
+Jan 15, 2023 8:29:09 PM spade.core.Kernel addReporterCommand INFO: Memory usage limited buffer used for reporter 'Graphviz' with 'workableFreeMemory'='20' from '/home/vagrant/SPADE/./cfg/spade.core.AbstractReporter.config'
+Jan 15, 2023 8:29:09 PM spade.reporter.Graphviz log INFO: Arguments [input=/home/vagrant/trace_dots/10.dot, reportingIntervalSeconds=120, referenceMode=true]
+Jan 15, 2023 8:29:09 PM spade.core.Kernel addReporterCommand INFO: Reporter added: Graphviz input=/home/vagrant/trace_dots/10.dot
+Jan 15, 2023 8:31:10 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=1592535, Get-count=142907, Put-count=1735442, Free-mem=82.975 percent
+Jan 15, 2023 8:31:10 PM spade.reporter.Graphviz log INFO: Lines [Overall=1735447, Interval=1735447]
+Jan 15, 2023 8:31:10 PM spade.reporter.Graphviz log INFO: Vertices [Overall=462250, Interval=462250]
+Jan 15, 2023 8:31:10 PM spade.reporter.Graphviz log INFO: Edges [Overall=1273193, Interval=1273193]
+Jan 15, 2023 8:31:10 PM spade.reporter.Graphviz log INFO: Current Buffer Size=1592536
+Jan 15, 2023 8:33:10 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3346132, Get-count=142907, Put-count=3489039, Free-mem=81.821 percent
+Jan 15, 2023 8:33:10 PM spade.reporter.Graphviz log INFO: Lines [Overall=3489044, Interval=1753597]
+Jan 15, 2023 8:33:10 PM spade.reporter.Graphviz log INFO: Vertices [Overall=960135, Interval=497885]
+Jan 15, 2023 8:33:10 PM spade.reporter.Graphviz log INFO: Edges [Overall=2528905, Interval=1255712]
+Jan 15, 2023 8:33:11 PM spade.reporter.Graphviz log INFO: Current Buffer Size=3346133
+Jan 15, 2023 8:34:12 PM spade.reporter.Graphviz log INFO: Finished reading input file
+Jan 15, 2023 8:34:12 PM spade.reporter.Graphviz log INFO: Exited main thread
+Jan 15, 2023 8:34:22 PM spade.reporter.Graphviz log INFO: Waiting for main thread to exit... 
+Jan 15, 2023 8:34:22 PM spade.reporter.Graphviz log INFO: Lines [Overall=4352260, Interval=863216]
+Jan 15, 2023 8:34:22 PM spade.reporter.Graphviz log INFO: Vertices [Overall=1188674, Interval=228539]
+Jan 15, 2023 8:34:22 PM spade.reporter.Graphviz log INFO: Edges [Overall=3163581, Interval=634676]
+Jan 15, 2023 8:34:23 PM spade.reporter.Graphviz log INFO: Current Buffer Size=4209348
+Jan 15, 2023 8:34:23 PM spade.core.Kernel removeCommand INFO: Shutting down reporter: Graphviz
+Jan 15, 2023 8:47:42 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=4209348, Get-count=142907, Put-count=4352255, Free-mem=79.092 percent
+Jan 15, 2023 8:47:42 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=10004131, edgesBlocked=0, edgesNotBlocked=37443933
+Jan 15, 2023 9:10:25 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3947204, Get-count=405051, Put-count=4352255, Free-mem=80.894 percent
+Jan 15, 2023 9:10:25 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=10073718, edgesBlocked=0, edgesNotBlocked=37636490
+Jan 15, 2023 9:29:34 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3685060, Get-count=667195, Put-count=4352255, Free-mem=79.552 percent
+Jan 15, 2023 9:29:34 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=10141701, edgesBlocked=0, edgesNotBlocked=37830651
+Jan 15, 2023 9:48:39 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3422916, Get-count=929339, Put-count=4352255, Free-mem=78.264 percent
+Jan 15, 2023 9:48:39 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=10206554, edgesBlocked=0, edgesNotBlocked=38027942
+Jan 15, 2023 10:06:57 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=3160772, Get-count=1191483, Put-count=4352255, Free-mem=76.964 percent
+Jan 15, 2023 10:06:57 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=10275090, edgesBlocked=0, edgesNotBlocked=38221550
+Jan 15, 2023 10:26:11 PM spade.core.BlockingBuffer log INFO: [Graphviz] Size=2898628, Get-count=1453627, Put-count=4352255, Free-mem=79.573 percent
+Jan 15, 2023 10:26:11 PM spade.screen.Deduplicate printStats INFO: verticesBlocked=0, verticesNotBlocked=10345505, edgesBlocked=0, edgesNotBlocked=38413279
